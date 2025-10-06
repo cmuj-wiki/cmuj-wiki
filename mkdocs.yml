@@ -6,6 +6,7 @@ site_url: https://cmuj-wiki.github.io/cmuj-wiki
 theme:
   name: material
   language: pl
+  custom_dir: overrides
   palette:
     # Dark mode (default)
     - scheme: slate
