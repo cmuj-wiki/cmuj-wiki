@@ -264,6 +264,37 @@
     };
 
     // ============================================================================
+    // QUIZ DATA LOADING (NEW: Load from JSON files)
+    // ============================================================================
+
+    /**
+     * Load quiz data from JSON file
+     * @param {string} quizId - The ID of the quiz to load
+     * @returns {Promise<Object>} - The quiz data
+     */
+    async function loadQuizData(quizId) {
+        try {
+            // Try to fetch from new JSON format first
+            const response = await fetch(`../assets/quiz-data/${quizId}.json`);
+            if (response.ok) {
+                const data = await response.json();
+                console.log(`✓ Loaded quiz from JSON: ${quizId}`);
+                return data;
+            }
+        } catch (error) {
+            console.warn(`Could not load quiz from JSON: ${quizId}`, error);
+        }
+
+        // Fallback to hardcoded QUIZ_DATA
+        if (QUIZ_DATA[quizId]) {
+            console.log(`✓ Loaded quiz from hardcoded data: ${quizId}`);
+            return QUIZ_DATA[quizId];
+        }
+
+        throw new Error(`Quiz not found: ${quizId}`);
+    }
+
+    // ============================================================================
     // INITIALIZATION
     // ============================================================================
 
@@ -383,7 +414,7 @@
 
     let currentQuizState = null;
 
-    function initQuizSession() {
+    async function initQuizSession() {
         const container = document.getElementById('quiz-session-container');
         if (!container) return;
 
@@ -391,8 +422,18 @@
         const urlParams = new URLSearchParams(window.location.search);
         const quizId = urlParams.get('quiz');
 
-        if (quizId && QUIZ_DATA[quizId]) {
-            startQuizSession(quizId);
+        if (quizId) {
+            try {
+                await startQuizSession(quizId);
+            } catch (error) {
+                console.error('Error loading quiz:', error);
+                container.innerHTML = `
+                    <div class="quiz-error">
+                        <p>❌ Błąd ładowania testu: ${error.message}</p>
+                        <p><a href="index.html">Wróć do listy testów</a></p>
+                    </div>
+                `;
+            }
         } else {
             // Try to resume from localStorage
             const savedSession = localStorage.getItem(STORAGE_KEYS.CURRENT_SESSION);
@@ -410,11 +451,12 @@
         }
     }
 
-    function startQuizSession(quizId) {
-        const quizData = QUIZ_DATA[quizId];
+    async function startQuizSession(quizId) {
+        // Load quiz data (from JSON or fallback to hardcoded)
+        const quizData = await loadQuizData(quizId);
+
         if (!quizData) {
-            console.error('Quiz not found:', quizId);
-            return;
+            throw new Error(`Quiz not found: ${quizId}`);
         }
 
         currentQuizState = {
@@ -636,7 +678,8 @@
 
     function getInstantFeedbackEnabled() {
         const stored = localStorage.getItem(STORAGE_KEYS.INSTANT_FEEDBACK);
-        return stored ? JSON.parse(stored) : false;
+        // Default to true if not set
+        return stored !== null ? JSON.parse(stored) : true;
     }
 
     function selectAnswer(questionIndex, optionIndex, questionType) {

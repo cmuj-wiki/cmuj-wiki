@@ -7,6 +7,8 @@ theme:
   name: material
   language: pl
   custom_dir: overrides
+  favicon: favicon.png
+  logo: assets/images/icon-192.png
   palette:
     # Dark mode (default)
     - scheme: slate
@@ -100,6 +102,10 @@ plugins:
       lang: pl
   - tags
   - offline  # Enable PWA for offline access
+  - quiz_builder:  # Custom plugin for compiling quiz files
+      quiz_dir: testy/quizzes
+      output_dir: assets/quiz-data
+      strict: false
 
 use_directory_urls: false
 
@@ -152,6 +158,12 @@ nav:
     - Histologia - Zestaw 7: testy/histologia-zestaw-7.md
     - Histologia - Zestaw 8: testy/histologia-zestaw-8.md
     - Histologia - Zestaw 9: testy/histologia-zestaw-9.md
+
+  - Dla Edytorów:
+    - edytorzy/index.md
+    - Jak dodać quiz: testy/quizzes/README.md
+    - Jak edytować strony: edytorzy/edycja-stron.md
+    - Jak zaktualizować harmonogram: edytorzy/harmonogram.md
 
   - Pomoc:
     - Jak korzystać: jak-korzystac.md

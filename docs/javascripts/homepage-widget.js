@@ -9,7 +9,8 @@
     'use strict';
 
     // Configuration
-    const STORAGE_KEY = 'cmuj_user_group';
+    const STORAGE_KEY_GROUP = 'cmuj_user_group';
+    const STORAGE_KEY_YEAR = 'cmuj_user_year';
     const WIDGET_ID = 'co-dalej-widget';
 
     // Initialize widget when DOM is ready
@@ -37,32 +38,69 @@
     }
 
     function renderWidget(container) {
+        const userYear = getUserYear();
         const userGroup = getUserGroup();
 
-        if (!userGroup) {
-            // Show group selection prompt
-            container.innerHTML = renderGroupSelector();
+        if (!userYear) {
+            // Show year selection first
+            container.innerHTML = renderYearSelector();
+            attachYearSelectorListeners(container);
+        } else if (!userGroup) {
+            // Show group selection after year is selected
+            container.innerHTML = renderGroupSelector(userYear);
             attachGroupSelectorListeners(container);
         } else {
             // Show personalized content
-            container.innerHTML = renderPersonalizedContent(userGroup);
+            container.innerHTML = renderPersonalizedContent(userYear, userGroup);
             attachWidgetListeners(container);
         }
     }
 
+    function getUserYear() {
+        return localStorage.getItem(STORAGE_KEY_YEAR);
+    }
+
+    function setUserYear(year) {
+        localStorage.setItem(STORAGE_KEY_YEAR, year);
+    }
+
     function getUserGroup() {
-        return localStorage.getItem(STORAGE_KEY);
+        return localStorage.getItem(STORAGE_KEY_GROUP);
     }
 
     function setUserGroup(group) {
-        localStorage.setItem(STORAGE_KEY, group);
+        localStorage.setItem(STORAGE_KEY_GROUP, group);
     }
 
-    function renderGroupSelector() {
+    function renderYearSelector() {
+        return `
+            <div class="widget-year-selector">
+                <h3>👋 Witaj na CMUJ Wiki!</h3>
+                <p>Wybierz swój rok studiów:</p>
+
+                <div class="year-grid">
+                    ${[1, 2, 3, 4, 5, 6].map(year => `
+                        <button class="year-btn ${year === 1 ? '' : 'disabled'}"
+                                data-year="${year}"
+                                ${year === 1 ? '' : 'disabled'}>
+                            Rok ${year}
+                            ${year !== 1 ? '<span class="coming-soon">Wkrótce</span>' : ''}
+                        </button>
+                    `).join('')}
+                </div>
+
+                <p class="widget-note">
+                    💡 Twój wybór zostanie zapamiętany w przeglądarce
+                </p>
+            </div>
+        `;
+    }
+
+    function renderGroupSelector(year) {
         return `
             <div class="widget-group-selector">
-                <h3>👋 Witaj na CMUJ Wiki!</h3>
-                <p>Wybierz swoją grupę zajęciową, aby zobaczyć spersonalizowany harmonogram:</p>
+                <h3>📚 Rok ${year}</h3>
+                <p>Wybierz swoją grupę zajęciową:</p>
 
                 <div class="group-grid">
                     ${Array.from({length: 20}, (_, i) => i + 1).map(num => `
@@ -79,13 +117,13 @@
         `;
     }
 
-    function renderPersonalizedContent(group) {
+    function renderPersonalizedContent(year, group) {
         const upcomingEvents = getUpcomingEvents(group);
         const nextWeekClasses = getNextWeekClasses(group);
 
         return `
             <div class="widget-header">
-                <h3>📅 Co dalej? <span class="widget-group-badge">Grupa ${group}</span></h3>
+                <h3>📅 Co dalej? <span class="widget-group-badge">Rok ${year} · Grupa ${group}</span></h3>
                 <button class="widget-change-group" id="change-group-btn">
                     Zmień grupę
                 </button>
@@ -152,6 +190,17 @@
         `;
     }
 
+    function attachYearSelectorListeners(container) {
+        const buttons = container.querySelectorAll('.year-btn:not(.disabled)');
+        buttons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const year = this.dataset.year;
+                setUserYear(year);
+                renderWidget(container);
+            });
+        });
+    }
+
     function attachGroupSelectorListeners(container) {
         const buttons = container.querySelectorAll('.group-btn');
         buttons.forEach(btn => {
@@ -167,7 +216,8 @@
         const changeBtn = container.querySelector('#change-group-btn');
         if (changeBtn) {
             changeBtn.addEventListener('click', function() {
-                localStorage.removeItem(STORAGE_KEY);
+                localStorage.removeItem(STORAGE_KEY_GROUP);
+                localStorage.removeItem(STORAGE_KEY_YEAR);
                 renderWidget(container);
             });
         }

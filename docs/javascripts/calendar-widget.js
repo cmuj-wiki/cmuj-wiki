@@ -523,9 +523,8 @@
         if (event._missingLocation) classes.push('event-missing-location');
 
         // Color by subject (hash subject name to hue)
+        // Pass hue to CSS via custom property for theme-aware coloring
         const hue = hashString(event.subject) % 360;
-        const color = `hsl(${hue}, 60%, 85%)`;
-        const borderColor = `hsl(${hue}, 60%, 60%)`;
 
         const time = formatTime(event.hour, event.minute);
 
@@ -543,7 +542,7 @@
         return `
             <div class="calendar-event-wrapper" style="height: ${durationSlots * rowHeight}px;">
                 <div class="${classes.join(' ')}"
-                     style="background: ${color}; border-left: 4px solid ${borderColor};"
+                     style="--event-hue: ${hue};"
                      onclick="window.calendar.showEventDetails(${JSON.stringify(event).replace(/"/g, '&quot;')})">
                     <div class="event-badges">${badges}</div>
                     <div class="event-subject">${event.subject}</div>

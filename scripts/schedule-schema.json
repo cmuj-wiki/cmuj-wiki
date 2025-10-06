@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CMUJ Schedule Data",
+  "description": "JSON Schema for validating schedule_data_v2.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "group": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 20,
+        "description": "Student group number (1-20)"
+      },
+      "day": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 6,
+        "description": "Day of week (0=Monday, 1=Tuesday, ..., 6=Sunday)"
+      },
+      "day_name": {
+        "type": ["string", "null"],
+        "enum": ["Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota", "Niedziela", null],
+        "description": "Polish day name (optional, can be auto-generated)"
+      },
+      "hour": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 23,
+        "description": "Start hour (0-23)"
+      },
+      "minute": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 59,
+        "description": "Start minute (0-59)"
+      },
+      "duration": {
+        "type": "integer",
+        "minimum": 15,
+        "maximum": 480,
+        "description": "Duration in minutes (15-480)"
+      },
+      "subject": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200,
+        "description": "Subject name (e.g., 'Anatomia', 'Biochemia ćw.')"
+      },
+      "type": {
+        "type": ["string", "null"],
+        "description": "Class type (e.g., 'Wykład', 'Seminarium', 'Ćwiczenia')"
+      },
+      "location": {
+        "type": ["string", "null"],
+        "description": "Location/venue (e.g., 'Katedra Biochemii Lekarskiej, ul. Kopernika 7')"
+      },
+      "dates": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^(do\\s+\\d{1,2}\\.[IVX]+|\\d{1,2}\\.[IVX]+\\s*-\\s*\\d{1,2}\\.[IVX]+|\\d{1,2}\\.[IVX]+)$",
+          "description": "Date restriction in format: 'do 7.XI' or '28.XI - 16.I' or '15.X'"
+        },
+        "description": "Array of date restrictions (empty = no restrictions)"
+      },
+      "time": {
+        "type": "null",
+        "description": "Legacy field, always null"
+      }
+    },
+    "required": ["group", "day", "hour", "minute", "duration", "subject"],
+    "additionalProperties": false
+  },
+  "minItems": 0
+}

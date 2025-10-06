@@ -1,0 +1,97 @@
+{
+  "quiz_id": "histologia-zestaw-demo",
+  "title": "Histologia Zestaw Demo",
+  "type": "image_quiz",
+  "questions": [
+    {
+      "question": "Question 1",
+      "image": "histologia-zestaw-demo/images/1.jpg",
+      "answer": "Kora móżdżku - barwienie Kluvera-Barrery",
+      "slide_number": 1
+    },
+    {
+      "question": "Question 2",
+      "image": "histologia-zestaw-demo/images/10.jpg",
+      "answer": "Mięsień szkieletowy - przekrój poprzeczny",
+      "slide_number": 2
+    },
+    {
+      "question": "Question 3",
+      "image": "histologia-zestaw-demo/images/11.jpg",
+      "answer": "Żyła główna",
+      "slide_number": 3
+    },
+    {
+      "question": "Question 4",
+      "image": "histologia-zestaw-demo/images/12.jpg",
+      "answer": "Wątroba srebrzona",
+      "slide_number": 4
+    },
+    {
+      "question": "Question 5",
+      "image": "histologia-zestaw-demo/images/13.jpg",
+      "answer": "Prostata",
+      "slide_number": 5
+    },
+    {
+      "question": "Question 6",
+      "image": "histologia-zestaw-demo/images/14.jpg",
+      "answer": "Płuco - makrofagi płucne",
+      "slide_number": 6
+    },
+    {
+      "question": "Question 7",
+      "image": "histologia-zestaw-demo/images/15.jpg",
+      "answer": "Trzustka - wyspa Langerhansa",
+      "slide_number": 7
+    },
+    {
+      "question": "Question 8",
+      "image": "histologia-zestaw-demo/images/2.jpg",
+      "answer": "Język - brodawka okolona",
+      "slide_number": 8
+    },
+    {
+      "question": "Question 9",
+      "image": "histologia-zestaw-demo/images/3.jpg",
+      "answer": "Jajnik - pęcherzyki zawiązkowe",
+      "slide_number": 9
+    },
+    {
+      "question": "Question 10",
+      "image": "histologia-zestaw-demo/images/4.jpg",
+      "answer": "Jądro - kanalik nasienny",
+      "slide_number": 10
+    },
+    {
+      "question": "Question 11",
+      "image": "histologia-zestaw-demo/images/5.jpg",
+      "answer": "Kora nerki - kanalik dystalny",
+      "slide_number": 11
+    },
+    {
+      "question": "Question 12",
+      "image": "histologia-zestaw-demo/images/6.jpg",
+      "answer": "Śledziona - tętniczka centralna",
+      "slide_number": 12
+    },
+    {
+      "question": "Question 13",
+      "image": "histologia-zestaw-demo/images/7.jpg",
+      "answer": "Skóra - brodawka skórna - ciałko Meissnera",
+      "slide_number": 13
+    },
+    {
+      "question": "Question 14",
+      "image": "histologia-zestaw-demo/images/8.jpg",
+      "answer": "Synapsa",
+      "slide_number": 14
+    },
+    {
+      "question": "Question 15",
+      "image": "histologia-zestaw-demo/images/9.jpg",
+      "answer": "Plazmocyt",
+      "slide_number": 15
+    }
+  ]
+}

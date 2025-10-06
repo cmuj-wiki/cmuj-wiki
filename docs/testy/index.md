@@ -6,10 +6,60 @@ Witaj w sekcji testów! Tutaj możesz przećwiczyć swoją wiedzę z różnych p
 
 ## 📚 Dostępne testy
 
-<div id="quiz-list" class="quiz-grid">
-    <!-- Quiz list will be loaded dynamically by JavaScript -->
-    <div class="quiz-loading">⏳ Ładowanie dostępnych testów...</div>
+### Testy tekstowe
+
+<div class="quiz-grid">
+    <div class="quiz-card">
+        <div class="quiz-card-header">
+            <div class="quiz-subject-badge">Anatomia</div>
+        </div>
+        <h3 class="quiz-card-title">Osteologia</h3>
+        <p class="quiz-card-description">Quiz sprawdzający podstawową wiedzę z osteologii - nauki o kościach.</p>
+        <div class="quiz-card-meta">
+            <span class="quiz-meta-item">📝 10 pytań</span>
+            <span class="quiz-meta-item">⭐ podstawowy</span>
+        </div>
+        <a href="sesja.html?quiz=anatomia-osteologia" class="quiz-start-btn" style="text-decoration: none; display: block; text-align: center;">
+            ▶️ Rozpocznij test
+        </a>
+    </div>
+
+    <div class="quiz-card">
+        <div class="quiz-card-header">
+            <div class="quiz-subject-badge">Biochemia</div>
+        </div>
+        <h3 class="quiz-card-title">Białka - podstawy</h3>
+        <p class="quiz-card-description">Quiz sprawdzający podstawową wiedzę o budowie i funkcjach białek.</p>
+        <div class="quiz-card-meta">
+            <span class="quiz-meta-item">📝 5 pytań</span>
+            <span class="quiz-meta-item">⭐ podstawowy</span>
+        </div>
+        <a href="sesja.html?quiz=biochemia-bialka" class="quiz-start-btn" style="text-decoration: none; display: block; text-align: center;">
+            ▶️ Rozpocznij test
+        </a>
+    </div>
 </div>
+
+### Testy obrazkowe (Histologia)
+
+<div class="quiz-grid">
+    <div class="quiz-card">
+        <div class="quiz-card-header">
+            <div class="quiz-subject-badge">Histologia</div>
+        </div>
+        <h3 class="quiz-card-title">Próbny Egzamin - Zestaw Demo</h3>
+        <p class="quiz-card-description">Przećwicz rozpoznawanie preparatów histologicznych.</p>
+        <div class="quiz-card-meta">
+            <span class="quiz-meta-item">🖼️ 15 preparatów</span>
+        </div>
+        <a href="sesja.html?quiz=histologia-zestaw-demo" class="quiz-start-btn" style="text-decoration: none; display: block; text-align: center;">
+            ▶️ Rozpocznij test
+        </a>
+    </div>
+</div>
+
+!!! tip "Chcesz dodać własny quiz?"
+    To proste! Zobacz [instrukcję dodawania quizów](quizzes/README.md) - wystarczy edytować plik tekstowy na GitHubie.
 
 ---
 
