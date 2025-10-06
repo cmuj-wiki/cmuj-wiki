@@ -1,0 +1,136 @@
+# Histologia z embriologią - Semestr 1
+slug: histologia
+name: "Histologia z embriologią"
+semester: 1
+last_verified: "2025-10-05"
+
+# Cover image
+cover_image: "assets/images/subjects/histologia.png"
+
+# Multi-semester subject tracking
+subject_group: "Histologia"
+subject_part: 1
+total_parts: 2
+continues_in_semester: 2
+
+syllabus:
+  ects: 11
+  coordinator:
+    name: "Katedra Histologii"
+    email: "histologia@cm-uj.krakow.pl"
+  hours:
+    total: 100
+    wyklady: 46
+    cwiczenia: 54
+  exam_type: "Egzamin praktyczny i teoretyczny"
+  syllabus_pdf: "https://sylabus.cm-uj.krakow.pl/pl/document/[UUID].pdf"
+  department_url: "http://histologia.cm-uj.krakow.pl/"
+
+medbox:
+  folder_main: "https://drive.google.com/drive/folders/1N-9TGk01yz2NlL6EgkO9kVTGrA_E5iNS"
+  folder_main_label: "Pełny folder MedBox - Histologia"
+  resources:
+    prezentacje:
+      - title: "Prezentacje z wykładów - Oficjalna chmura UJ"
+        url: "https://chmura.cm-uj.krakow.pl/index.php/s/nHzjizzXrgd9XPQ"
+        description: "Oficjalne prezentacje z wykładów z histologii"
+
+kolokwia:
+  - title: "Kolokwium - Cytologia i tkanki"
+    date: "20.11.2025, 18:00"
+    scope: "Cytologia i tkanki (zajęcia 1-10)"
+    link: "kolokwia/semestr-1/histologia-kolokwia-1"
+  - title: "Kolokwium poprawkowe - Cytologia i tkanki"
+    date: "16.12.2025, 08:00"
+    scope: "Cytologia i tkanki"
+    link: "kolokwia/semestr-1/histologia-kolokwia-poprawka"
+  - title: "Kolokwium ostateczne - Cytologia i tkanki"
+    date: "13.01.2026, 08:00"
+    scope: "Cytologia i tkanki"
+    link: "kolokwia/semestr-1/histologia-kolokwia-ostateczne"
+
+egzaminy:
+  - title: "Egzamin praktyczny I termin"
+    date: "02-03.02.2026"
+    time: "09:00-15:00"
+    description: "Według odrębnego harmonogramu"
+    link: "kolokwia/semestr-1/histologia-egzamin-praktyczny-1"
+  - title: "Egzamin teoretyczny I termin"
+    date: "05.02.2026"
+    time: "12:45"
+    link: "kolokwia/semestr-1/histologia-egzamin-teoretyczny-1"
+  - title: "Egzamin poprawkowy"
+    date: "23.02.2026"
+    time: "09:00 praktyczny, 10:00 teoretyczny"
+    description: "Egzamin praktyczny i teoretyczny"
+    link: "kolokwia/semestr-1/histologia-egzamin-poprawkowy"
+
+harmonogram_url: "https://histologia.cm-uj.krakow.pl/dydaktyka/kierunek-lekarski/kierunek-lekarski-program-i-tematyka-kursu/kierunek-lekarski-program-cwiczen/"
+
+harmonogram_classes:
+  - class_number: 1
+    date: "02-03.10.2025"
+    topic: "Wprowadzenie do histologii. Zasady działania mikroskopu optycznego i elektronowego. Charakterystyka obrazu w mikroskopie optycznym, powiększenie, zdolność rozdzielcza. Ogólne zasady przygotowania materiału do badań w mikroskopie optycznym i elektronowym. Charakterystyka podstawowych technik histologicznych. Podstawy histochemii klasycznej, histochemii enzymów, immunocytochemii. Zasady poprawnego mikroskopowania. Komórka, cz. I: Błony biologiczne: składniki błon, ich własności i znaczenie czynnościowe. Transport przez błony biologiczne i jego regulacja. Błona komórkowa, glikokaliks. Jądro – organizacja przestrzenna chromatyny, euchromatyna i heterochromatyna. Jąderko. Zrąb jądra. Otoczka jądrowa i komunikacja jądrowo-cytoplazmatyczna. Struktura rybosomów i przebieg translacji. Siateczka śródplazmatyczna szorstka i gładka. Aparat Golgiego – biegunowość diktiosomu, rola w procesie przebudowy błon, modyfikacji i segregacji białek."
+  - class_number: 2
+    date: "06-08.10.2025"
+    topic: "Komórka, cz. II: Egzocytoza. Endocytoza i jej rodzaje, przedziały endosomowe. Lizosomy. Proteasomy. Mitochondria – charakterystyka morfologiczna, własności przedziałów mitochondrialnych, rozmieszczenie układów enzymatycznych i mechanizmy ich działania. Aparat genetyczny i biogeneza mitochondriów. Peroksysomy. Cytoszkielet i mechanizmy zjawisk ruchowych w komórkach. Śmierć komórki: nekroza i apoptoza."
+  - class_number: 3
+    date: "09-10.10.2025"
+    topic: "Tkanka nabłonkowa. Ogólna charakterystyka i funkcje nabłonków. Klasyfikacja nabłonków i charakterystyka ich poszczególnych typów. Modyfikacje budowy tkanki nabłonkowej w zależności od pełnionej funkcji. Zróżnicowania powierzchni nabłonków: mikrokosmki i rzęski, mechanizm ruchu rzęsek. Połączenia międzykomórkowe. Blaszka podstawna. Gruczoły – typy budowy i wydzielania."
+  - class_number: 4
+    date: "13-15.10.2025"
+    topic: "Tkanka łączna właściwa. Charakterystyka chemiczna i strukturalna substancji międzykomórkowej (włókna i istota podstawowa). Pochodzenie, budowa i czynność komórek tkanki łącznej właściwej: komórki włóknotwórcze, komórki uczestniczące w zjawiskach obronnych. Klasyfikacja odmian tkanki łącznej. Tkanka tłuszczowa."
+  - class_number: 5
+    date: "16-17.10.2025"
+    topic: "Tkanki łączne podporowe. Chrząstka: charakterystyka substancji międzykomórkowej, terytoria chrzęstne, typy chrząstki. Elementy składowe kości – substancja międzykomórkowa i komórki: kom. osteogenne, osteoblasty i osteoklasty. Blaszka kostna, organizacja strukturalna i czynnościowa kości gąbczastej i zbitej. Kostnienie na podłożu mezenchymatycznym i chrzęstnym. Wzrost i przebudowa kości. Podstawy procesu biomineralizacji. Budowa stawu."
+  - class_number: 6
+    date: "20-22.10.2025"
+    topic: "Krew i hemopoeza. Osocze. Elementy morfotyczne krwi, charakterystyka i przystosowanie do funkcji. Znaczenie granulocytów w procesach obronnych ustroju. Limfocyty, ogólna charakterystyka. Monocyty. Płytki krwi. Budowa szpiku krwiotwórczego. Hemopoeza: komórki macierzyste, linie rozwojowe i ich charakterystyka."
+  - class_number: 7
+    date: "23-24.10.2025"
+    topic: "Tkanka mięśniowa. Aparat kurczliwy. Klasyfikacja tkanki mięśniowej. Charakterystyka komórek mięśniowych gładkich, włókien mięśniowych szkieletowych i komórek mięśnia sercowego. Podstawy strukturalne i molekularne zjawiska skurczu w mięśniach gładkich i poprzecznie prążkowanych. Struktura sarkomeru. Budowa i funkcja kanalików T i siateczki sarkoplazmatycznej. Płytka motoryczna. Organizacja błony mięśniowej gładkiej, mięśnia szkieletowego i mięśnia sercowego wraz z układem przewodzącym. Niemięśniowe komórki kurczliwe."
+  - class_number: 8
+    date: "27-29.10.2025"
+    topic: "Tkanka nerwowa. Pojęcie neuronu i charakterystyka jego wyposażenia cytoplazmatycznego. Klasyfikacja komórek nerwowych. Włókna nerwowe i ich typy. Strukturalne i molekularne podstawy przewodnictwa nerwowego. Budowa i typy synaps, przewodnictwo synaptyczne. Typy i czynność komórek neurogleju. Pień nerwowy (nerw obwodowy). Zwój międzykręgowy. Ośrodkowy układ nerwowy: skład istoty szarej i białej, organizacja rdzenia kręgowego, kory móżdżku i mózgu."
+  - class_number: 9
+    date: "03-05.11.2025"
+    topic: "Układ naczyniowy. Elementy składowe ściany naczyniowej. Śródbłonek, charakterystyka i funkcje. Mechanizmy transportu substancji i migracji leukocytów przez śródbłonek. Angiogeneza. Budowa kapilarów i ich typy. Prekapilary i postkapilary, regulacja przepływu przez łożysko naczyń włosowatych. Naczynia tętnicze: tętnice typu mięśniowego i sprężystego. Naczynia żylne – różnorodność budowy. Anastomozy tętniczo-żylne. Warstwy ściany serca."
+  - class_number: 10
+    date: "06-07.11.2025"
+    topic: "Układ limfatyczny. Komórki uczestniczące w reakcjach immunologicznych: komórki prezentujące antygen, limfocyty T i ich subpopulacje, limfocyty B i NK. Odporność nieswoista, receptory rozpoznające wzorzec. Podstawy reakcji immunologicznych: odpowiedź humoralna i komórkowa. Tkanka limfoidalna. Organizacja grudki chłonnej. Węzeł chłonny. Śledziona – organizacja miazgi białej i czerwonej, krążenie śledzionowe. Układ nabłonkowo-limfatyczny grasicy i jej rola jako centralnego narządu limfatycznego. Tkanka limfoidalna błon śluzowych – migdałki."
+  - class_number: "K1"
+    date: "20.11.2025"
+    topic: "⚡ KOLOKWIUM - Cytologia i tkanki (zajęcia 1-10)"
+    time: "18:00"
+  - class_number: 11
+    date: "17-19.11.2025"
+    topic: "Powłoki skórne. Naskórek – keratynocyty i proces rogowacenia, inne komórki obecne w naskórku (melanocyty, komórki Langerhansa i komórki Merkla) i ich funkcje. Organizacja skóry właściwej i tkanki podskórnej. Gruczoły potowe, łojowe i potowe apokrynowe – budowa i mechanizmy wydzielnicze. Korzeń włosa i twory z nim związane. Unaczynienie i unerwienie skóry, typy zakończeń nerwowych i ich rola. Charakterystyka morfologiczna skóry z różnych okolic ciała."
+  - class_number: 12
+    date: "24-26.11.2025"
+    topic: "Układ pokarmowy, cz. I. Jama ustna i gruczoły ślinowe. Błona śluzowa różnych rejonów jamy ustnej. Język – brodawki i kubki smakowe, mechanizm percepcji bodźców smakowych. Małe i duże gruczoły ślinowe – budowa i czynność odcinków wydzielniczych i przewodów wyprowadzających. Różnicowa charakterystyka ślinianek. Ogólna budowa zęba: struktura tkanek twardych, miazga zęba, ozębna i dziąsło. Duże gruczoły układu pokarmowego. Trzustka – struktura i funkcja części zewnątrzwydzielniczej, charakterystyka odcinka wydzielniczego, komórki gruczołowej i dróg wyprowadzających. Wątroba – organizacja zrazikowa (zrazik w ujęciu klasycznym i czynnościowym). Charakterystyka strukturalna i czynnościowa komórki wątrobowej i jej biegunów. Zatoki wątrobowe i komórki z nimi związane. Krążenie krwi w wątrobie. Wewnątrz- i zewnątrzwątrobowe drogi żółciowe."
+  - class_number: 13
+    date: "01-03.12.2025"
+    topic: "Układ pokarmowy, cz. II. Cewa pokarmowa. Ogólna budowa cewy pokarmowej, charakterystyka warstw ściany. Budowa przełyku. Organizacja błony śluzowej żołądka, charakterystyka nabłonka powierzchniowego, gruczołów i ich skład komórkowy. Jelito i jego przystosowanie do funkcji. Zróżnicowania budowy poszczególnych odcinków jelit. Tkanka limfoidalna cewy pokarmowej. Sploty nerwowe cewy pokarmowej. Komórki dokrewne cewy pokarmowej."
+  - class_number: 14
+    date: "08-10.12.2025"
+    topic: "Układ dokrewny. Przysadka mózgowa: część gruczołowa i nerwowa, związek morfologiczny i czynnościowy przysadki z podwzgórzem. Tarczyca: organizacja narządu, struktura pęcherzyka tarczycowego, budowa tworzących go komórek, etapy produkcji hormonów, komórki C. Nadnercze. Kora: podział na warstwy, cechy ultrastrukturalne komórek steroidogennych. Rdzeń: komórki chromochłonne, komórkowe aspekty produkcji katecholamin. Wysepki trzustkowe – typy komórek, ich charakterystyka ultrastrukturalna i czynnościowa. Przytarczyce – budowa, typy komórek i ich czynność. Szyszynka. System rozsianych komórek dokrewnych (DNES). Układ oddechowy. Drogi oddechowe – nabłotek i jego skład komórkowy, charakterystyka błony śluzowej. Jama nosowa: błona śluzowa obszaru oddechowego, błona śluzowa obszaru węchowego i jej nabłonek – budowa i czynność. Budowa tchawicy, oskrzeli i oskrzelików. Organizacja miąższu płucnego. Pęcherzyk płucny: typy pneumocytów i ich funkcje, bariera powietrze-krew, surfaktant i jego rola. Makrofagi płucne i komórki śródmiąższowe."
+  - class_number: 15
+    date: "15-17.12.2025"
+    topic: "Układ rozrodczy żeński. Jajnik – organizacja i kolejne stadia rozwoju pęcherzyków jajnikowych. Atrezja pęcherzyków. Ciałko żółte, luteoliza i ciałko białawe. Charakterystyka komórek dokrewnych jajnika. Zrąb jajnika. Jajowód: budowa ściany, charakterystyka nabłonka. Macica: endometrium i myometrium, zmiany błony śluzowej macicy w przebiegu cyklu miesięcznego. Szyjka macicy. Pochwa: budowa ściany, cytologia rozmazów pochwowych. Łożysko – budowa kosmka łożyskowego i charakterystyka bariery łożyskowej. Płyta podstawowa i komórki doczesnowe. Budowa histologiczna błon płodowych i sznura pępowinowego. Gruczoł mlekowy – ogólna charakterystyka budowy, zmienność zależna od fazy rozwoju i stanu czynnościowego. Struktura odcinka wydzielniczego i komórki wydzielniczej, mechanizmy wydzielania składników mleka, budowa przewodów wyprowadzających."
+  - class_number: "K1p"
+    date: "16.12.2025"
+    topic: "⚡ KOLOKWIUM POPRAWKOWE - Cytologia i tkanki"
+    time: "08:00"
+  - class_number: 16
+    date: "12-14.01.2026"
+    topic: 'Układ rozrodczy męski. Jądro – kanalik nasienny i jego błona graniczna. „Nabłonek" plemnikotwórczy, spermatogeneza, ultrastruktura plemnika. Komórki Sertolego. Przestrzeń śródmiąższowa jądra: komórki Leydiga, makrofagi jądrowe. Budowa i czynność dróg wyprowadzających: kanaliki proste, sieć jądra, najądrze i nasieniowód. Budowa i czynność gruczołu krokowego, pęcherzyków nasiennych, gruczołów opuszkowo-cewkowych. Układ moczowy. Nerka – obszary miąższu. Charakterystyka nefronu i lokalizacja jego odcinków w obrębie miąższu nerki. Budowa ciałka nerkowego, ultrastruktura i mechanizm działania bariery filtracyjnej. Charakterystyka strukturalna i czynnościowa kolejnych odcinków nefronu. Cewka zbiorcza i jej rola w procesie zagęszczania moczu. Aparat przykłębuszkowy. Układ naczyń krwionośnych w nerce. Drogi moczowe: moczowód, pęcherz moczowy i jego adaptacja do zmiennej pojemności.'
+  - class_number: "K1o"
+    date: "13.01.2026"
+    topic: "⚡ KOLOKWIUM OSTATECZNE - Cytologia i tkanki"
+    time: "08:00"
+  - class_number: 17
+    date: "19-21.01.2026"
+    topic: "Narząd wzroku. Ogólna organizacja gałki ocznej, warstwy ściany. Budowa twardówki i rogówki. Naczyniówka właściwa, struktury związane z akomodacją i adaptacją: ciałko rzęskowe, tęczówka i soczewka. Produkcja i krążenie płynu wodnistego. Siatkówka – charakterystyka kolejnych warstw, budowa i czynność fotoreceptorów. Plamka żółta i plamka ślepa. Powieka: spojówka, tarczka i gruczoły. Gruczoł łzowy. Repetytorium praktyczne I."
+  - class_number: 18
+    date: "26-28.01.2026"
+    topic: "Demonstracja procedury egzaminu praktycznego. Repetytorium praktyczne II."

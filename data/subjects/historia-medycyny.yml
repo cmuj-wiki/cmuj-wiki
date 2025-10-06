@@ -1,0 +1,49 @@
+# Historia medycyny - Semestr 1
+# Last updated: 2025-10-05
+
+slug: historia-medycyny
+name: "Historia medycyny"
+name_short: "Historia medycyny"
+semester: 1
+last_verified: "2025-10-05"
+
+syllabus:
+  ects: 1
+  coordinator:
+    name: "Zakład Historii Medycyny"
+    email: "historia@cm-uj.krakow.pl"  # TODO: Verify contact
+  hours:
+    total: 15
+    wyklady: 15
+    cwiczenia: 0
+    seminaria: 0
+  exam_type: "Zaliczenie"
+  syllabus_pdf: "https://sylabus.cm-uj.krakow.pl/pl/document/[UUID].pdf"  # TODO
+  department_url: "http://historia-medycyny.cm-uj.krakow.pl/"  # TODO: Verify URL
+
+medbox:
+  folder_main: "https://drive.google.com/drive/folders/[HISTORIA_FOLDER_ID]"  # TODO
+  resources:
+    wyklady:
+      - title: "Prezentacje z wykładów"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+        description: "Materiały z wykładów z historii medycyny"
+
+    skrypty:
+      - title: "Notatki i skrypty"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+kolokwia:
+  - title: "Zaliczenie - Historia medycyny"
+    date: "2026-01-25"  # TODO: Verify date
+    link: "kolokwia/semestr-1/historia-medycyny-zaliczenie-1"
+
+harmonogram_url: "https://wl.cm.uj.edu.pl/"  # TODO: Find specific schedule
+
+external_resources:
+  - title: "Muzeum Farmacji CM UJ"
+    url: "https://muzeum-farmacji.cm-uj.krakow.pl/"
+    type: "website"
+  - title: "Historia medycyny - Wikipedia"
+    url: "https://pl.wikipedia.org/wiki/Historia_medycyny"
+    type: "website"

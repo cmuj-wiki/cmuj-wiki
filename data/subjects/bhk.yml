@@ -1,0 +1,37 @@
+# Szkolenie BHK (Biofizyka, Hygiena, Kierunkowość) - Semestr 1
+# Last updated: 2025-10-05
+
+slug: bhk
+name: "Szkolenie BHK"
+name_short: "BHK"
+semester: 1
+last_verified: "2025-10-05"
+
+syllabus:
+  ects: 4  # TODO: Verify exact ECTS
+  coordinator:
+    name: "Zakład Biofizyki, Hygieny i Kierunkowości"
+    email: "bhk@cm-uj.krakow.pl"  # TODO: Verify contact
+  hours:
+    total: 30  # TODO: Verify total hours
+    wyklady: 0
+    cwiczenia: 30  # TODO: Verify breakdown
+    seminaria: 0
+  exam_type: "Zaliczenie"
+  syllabus_pdf: "https://sylabus.cm-uj.krakow.pl/pl/document/[UUID].pdf"  # TODO
+  department_url: "https://wl.cm.uj.edu.pl/"
+
+medbox:
+  folder_main: "https://drive.google.com/drive/folders/[BHK_FOLDER_ID]"  # TODO
+  resources:
+    wyklady:
+      - title: "Materiały ze szkolenia BHK"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+        description: "Prezentacje i materiały z biofizyki, higieny i kierunkowości"
+
+kolokwia:
+  - title: "Zaliczenie BHK"
+    date: "2025-12-15"  # TODO: Verify date
+    link: "kolokwia/semestr-1/bhk-zaliczenie-1"
+
+harmonogram_url: "https://wl.cm.uj.edu.pl/"  # TODO: Find specific schedule

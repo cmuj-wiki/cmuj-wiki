@@ -1,0 +1,135 @@
+# MedBox - Linki do zasobów edukacyjnych
+# Struktura: rok → przedmiot → typ zasobu → link
+# Aktualizacja: 2025-10-05
+
+# IMPORTANT: To share Google Drive folders/files, get shareable link with "Anyone with the link" permission
+
+semestr_1:
+  anatomia:
+    folder_glowny: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO: Dodać prawidłowy ID folderu
+    zasoby:
+      ksiazki:
+        - title: "Bochenek - Anatomia Człowieka"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+          opis: "Klasyczny podręcznik anatomii"
+
+        - title: "Sobotta Atlas"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+          opis: "Atlas anatomiczny"
+
+      skrypty:
+        - title: "Skrypty z zajęć"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      prezentacje:
+        - title: "Prezentacje z wykładów"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      szpilki:
+        - title: "Materiały do egzaminu praktycznego (pins)"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+          opis: "Zdjęcia preparatów z opisami"
+
+      bazy:
+        - title: "Bazy danych anatomicznych"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      embriologia:
+        - title: "Materiały z embriologii"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      pegaz:
+        - title: "Materiały Pegaz"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+  biochemia:
+    folder_glowny: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+    zasoby:
+      ksiazki:
+        - title: "Podręczniki biochemii"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      wyklady:
+        - title: "Materiały z wykładów"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      cwiczenia:
+        - title: "Materiały do ćwiczeń"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      kolokwia:
+        - title: "Pytania z kolokwiów - poprzednie lata"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+  histologia:
+    folder_glowny: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+    zasoby:
+      ksiazki:
+        - title: "Podręczniki histologii"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      atlasy:
+        - title: "Atlasy histologiczne"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      preparaty:
+        - title: "Zdjęcia preparatów mikroskopowych"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      kolokwia:
+        - title: "Pytania z kolokwiów"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+  bhk:
+    folder_glowny: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+    zasoby:
+      biofizyka:
+        - title: "Materiały z biofizyki"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      hygiena:
+        - title: "Materiały z higieny"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+      kierunkowosc:
+        - title: "Materiały z kierunkowości"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+  etyka:
+    folder_glowny: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+    zasoby:
+      wyklady:
+        - title: "Materiały z wykładów"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+  historia_medycyny:
+    folder_glowny: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+    zasoby:
+      wyklady:
+        - title: "Materiały z wykładów"
+          url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+  wychowanie_fizyczne:
+    zasoby: []  # Brak zasobów MedBox
+
+
+# Ogólne zasoby (nie przypisane do konkretnego semestru)
+zasoby_ogolne:
+  centrala:
+    - title: "MedBOX - Centrala"
+      url: "https://drive.google.com/drive/folders/1U7dFx1x16YTZgNgExbuq5YRGl6Dk9-2O"
+      opis: "Główny folder MedBox z wszystkimi materiałami"
+
+  harmonogramy:
+    - title: "Harmonogramy i spisywanie pytań"
+      url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO: "2. Spisywanie pytań"
+
+  postawy:
+    - title: "Postaw kawę BOXerowi"
+      url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+      opis: "Informacje o projekcie MedBox"
+
+# TODO: Dodać pozostałe semestry (2-12) gdy będą dostępne mappingi folderów
+# semestr_2:
+#   fizjologia:
+#     ...

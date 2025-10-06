@@ -1,0 +1,162 @@
+site_name: CMUJ Wiki - Kierunek Lekarski
+site_description: Wiki dla studentów kierunku lekarskiego UJ Collegium Medicum
+site_author: Studenci CMUJ
+site_url: https://cmuj-wiki.github.io/wiki
+
+theme:
+  name: material
+  language: pl
+  palette:
+    # Dark mode (default)
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Przełącz na tryb jasny
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Przełącz na tryb ciemny
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - announce.dismiss
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cmuj-wiki/wiki
+
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+  announcement:
+    text: '🚧 <strong>Ta strona jest w budowie!</strong> Wiele treści to jeszcze placeholdery. Chcesz pomóc? <a href="jak-edytowac.html">Zobacz jak dodać materiały →</a>'
+
+extra_css:
+  - stylesheets/homepage-widget.css
+  - stylesheets/quiz.css
+  - stylesheets/calendar.css
+
+extra_javascript:
+  - javascripts/homepage-widget.js
+  - javascripts/quiz-engine.js
+  - javascripts/calendar-widget.js
+  - javascripts/histologia-viewer.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.mark
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: pl
+  - tags
+  - offline  # Enable PWA for offline access
+
+use_directory_urls: false
+
+nav:
+  - Strona główna: index.md
+
+  - Studia:
+    - studia/index.md
+    - Semestr I: semestr-1/index.md
+    - Semestr II: semestr-2/index.md
+    - Semestr III: semestr-3/index.md
+    - Semestr IV: semestr-4/index.md
+    - Semestr V: semestr-5/index.md
+    - Semestr VI: semestr-6/index.md
+    - Semestr VII: semestr-7/index.md
+    - Semestr VIII: semestr-8/index.md
+    - Semestr IX: semestr-9/index.md
+    - Semestr X: semestr-10/index.md
+    - Semestr XI: semestr-11/index.md
+    - Semestr XII: semestr-12/index.md
+    - Kalendarz (BETA): kalendarz/index.md
+    - Plan zajęć (do pobrania): plan-zajec.md
+    - Prowadzący: prowadzacy/index.md
+
+  - Kolokwia:
+    - kolokwia/index.md
+    - Semestr I: kolokwia/semestr-1/index.md
+
+  - Egzaminy:
+    - egzaminy/index.md
+    - LEK: egzaminy/lek.md
+    - Strategie nauki: egzaminy/strategie.md
+
+  - Zasoby:
+    - zasoby/index.md
+    - Książki: zasoby/ksiazki.md
+    - Przydatne linki: zasoby/linki.md
+    - Narzędzia: zasoby/narzedzia.md
+    - MedBox (zewnętrzne): zasoby/medbox-info.md
+
+  - Testy:
+    - testy/index.md
+    - Sesja testowa: testy/sesja.md
+    - Histologia - Zestaw 1: testy/histologia-zestaw-1.md
+    - Histologia - Zestaw 2: testy/histologia-zestaw-2.md
+    - Histologia - Zestaw 3: testy/histologia-zestaw-3.md
+    - Histologia - Zestaw 4: testy/histologia-zestaw-4.md
+    - Histologia - Zestaw 5: testy/histologia-zestaw-5.md
+    - Histologia - Zestaw 6: testy/histologia-zestaw-6.md
+    - Histologia - Zestaw 7: testy/histologia-zestaw-7.md
+    - Histologia - Zestaw 8: testy/histologia-zestaw-8.md
+    - Histologia - Zestaw 9: testy/histologia-zestaw-9.md
+
+  - Pomoc:
+    - Jak korzystać: jak-korzystac.md
+    - Jak dodać materiały: jak-edytowac.md
+    - FAQ: faq.md
+    - Informacje prawne: legal.md
+
+repo_url: https://github.com/cmuj-wiki/wiki
+repo_name: wiki
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2025 Studenci UJ Collegium Medicum

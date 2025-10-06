@@ -1,0 +1,42 @@
+# Biochemia z elementami chemii - Semestr 2
+# Last updated: 2025-10-05
+
+slug: biochemia
+name: "Biochemia z elementami chemii"
+name_short: "Biochemia"
+semester: 2
+last_verified: "2025-10-05"
+
+# Multi-semester subject tracking
+subject_group: "Biochemia"
+subject_part: 2
+total_parts: 2
+previous_semester: 1
+
+syllabus:
+  ects: 8  # TODO: Verify
+  coordinator:
+    name: "Katedra Biochemii"
+    email: "biochemia@cm-uj.krakow.pl"
+  hours:
+    total: 60  # TODO: Verify
+    wyklady: 20
+    cwiczenia: 20
+    seminaria: 20
+  exam_type: "Egzamin"
+  syllabus_pdf: "https://sylabus.cm-uj.krakow.pl/pl/document/[UUID].pdf"  # TODO
+  department_url: "http://biochemia.cm-uj.krakow.pl/"
+
+medbox:
+  folder_main: "https://drive.google.com/drive/folders/[BIOCHEMIA_FOLDER_ID]"  # TODO
+  resources:
+    ksiazki:
+      - title: "Podręczniki biochemii - część 2"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+kolokwia:
+  - title: "Kolokwium 1 - Semestr 2"
+    date: "2026-04-15"  # TODO: Verify
+    link: "kolokwia/semestr-2/biochemia-kolokwia-1"
+
+harmonogram_url: "http://biochemia.cm-uj.krakow.pl/dydaktyka/"

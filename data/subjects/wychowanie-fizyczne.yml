@@ -1,0 +1,41 @@
+# Wychowanie fizyczne - Semestr 1
+# Last updated: 2025-10-05
+
+slug: wychowanie-fizyczne
+name: "Wychowanie fizyczne"
+name_short: "WF"
+semester: 1
+last_verified: "2025-10-05"
+
+syllabus:
+  ects: 0  # Physical education typically has no ECTS
+  coordinator:
+    name: "Studium Wychowania Fizycznego i Sportu"
+    email: "wf@uj.edu.pl"  # TODO: Verify contact
+  hours:
+    total: 30
+    wyklady: 0
+    cwiczenia: 30
+    seminaria: 0
+  exam_type: "Zaliczenie (obecność + aktywność)"
+  syllabus_pdf: "https://sylabus.cm-uj.krakow.pl/pl/document/[UUID].pdf"  # TODO
+  department_url: "https://swfis.uj.edu.pl/"
+
+medbox:
+  folder_main: ""  # Physical education typically doesn't have MedBox resources
+  resources: {}
+
+kolokwia:
+  - title: "Zaliczenie WF - Semestr 1"
+    date: "2026-02-01"  # TODO: Verify date
+    link: "kolokwia/semestr-1/wf-zaliczenie-1"
+
+harmonogram_url: "https://swfis.uj.edu.pl/harmonogram"  # TODO: Verify URL
+
+external_resources:
+  - title: "Studium WFiS UJ - Zajęcia"
+    url: "https://swfis.uj.edu.pl/zajecia"
+    type: "website"
+  - title: "Zajęcia WF dla studentów medycyny"
+    url: "https://swfis.uj.edu.pl/studenci-cm"
+    type: "website"

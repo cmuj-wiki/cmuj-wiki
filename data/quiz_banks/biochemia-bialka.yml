@@ -1,0 +1,87 @@
+# Quiz: Biochemia - Białka
+# Sample quiz for testing the quiz app
+
+quiz_id: "biochemia-bialka"
+subject: "Biochemia"
+topic: "Białka - podstawy"
+difficulty: "podstawowy"
+semester: 1
+description: "Quiz sprawdzający podstawową wiedzę o budowie i funkcjach białek."
+
+questions:
+  - id: "biochem-prot-001"
+    question: "Ile różnych aminokwasów białkowych występuje w organizmie człowieka?"
+    type: "single_choice"
+    points: 1
+    options:
+      - text: "10"
+        correct: false
+      - text: "20"
+        correct: true
+      - text: "30"
+        correct: false
+      - text: "50"
+        correct: false
+    explanation: "W organizmie człowieka występuje 20 standardowych aminokwasów białkowych, które są kodowane genetycznie."
+
+  - id: "biochem-prot-002"
+    question: "Które wiązanie łączy aminokwasy w łańcuchu polipeptydowym?"
+    type: "single_choice"
+    points: 1
+    options:
+      - text: "Wiązanie wodorowe"
+        correct: false
+      - text: "Wiązanie peptydowe"
+        correct: true
+      - text: "Wiązanie disulfidowe"
+        correct: false
+      - text: "Wiązanie jonowe"
+        correct: false
+    explanation: "Wiązanie peptydowe to wiązanie amidowe powstające między grupą karboksylową jednego aminokwasu a grupą aminową drugiego aminokwasu z wydzieleniem cząsteczki wody."
+
+  - id: "biochem-prot-003"
+    question: "Zaznacz wszystkie poziomy struktury białka:"
+    type: "multiple_choice"
+    points: 2
+    options:
+      - text: "Struktura I-rzędowa (pierwotna)"
+        correct: true
+      - text: "Struktura II-rzędowa (wtórna)"
+        correct: true
+      - text: "Struktura III-rzędowa (trzeciorzędowa)"
+        correct: true
+      - text: "Struktura IV-rzędowa (czwartorzędowa)"
+        correct: true
+      - text: "Struktura V-rzędowa"
+        correct: false
+    explanation: "Białka mają cztery poziomy struktury: I-rzędowa (sekwencja aminokwasów), II-rzędowa (helisa α, kartka β), III-rzędowa (przestrzenna struktura łańcucha), IV-rzędowa (kilka podjednostek)."
+
+  - id: "biochem-prot-004"
+    question: "Który aminokwas ma grupę tiolową (-SH) w łańcuchu bocznym?"
+    type: "single_choice"
+    points: 1
+    options:
+      - text: "Seryna"
+        correct: false
+      - text: "Cysteina"
+        correct: true
+      - text: "Metionina"
+        correct: false
+      - text: "Lizyna"
+        correct: false
+    explanation: "Cysteina ma grupę tiolową (-SH), która może tworzyć mostki disulfidowe z inną cysteiną, stabilizując strukturę białka."
+
+  - id: "biochem-prot-005"
+    question: "Co to jest denaturacja białka?"
+    type: "single_choice"
+    points: 1
+    options:
+      - text: "Synteza nowego białka"
+        correct: false
+      - text: "Utrata struktury przestrzennej bez zerwania wiązań peptydowych"
+        correct: true
+      - text: "Rozkład białka na aminokwasy"
+        correct: false
+      - text: "Przyłączenie grupy fosforanowej"
+        correct: false
+    explanation: "Denaturacja to utrata struktury II, III i IV-rzędowej białka pod wpływem czynników fizycznych lub chemicznych, bez zerwania wiązań peptydowych (struktura I-rzędowa pozostaje nienaruszona)."

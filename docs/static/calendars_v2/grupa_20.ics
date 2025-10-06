@@ -1,0 +1,1149 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CMUJ Wiki//Plan Zajęć//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Plan zajęć dla grupy 20 - I rok Kierunku Lekarskiego UJ CM 
+ (z adresami i dniami wolnymi)
+X-WR-CALNAME:Plan Zajęć - Grupa 20
+X-WR-TIMEZONE:Europe/Warsaw
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241104T101500
+DTEND;TZID=Europe/Warsaw:20241104T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-11-04T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241118T101500
+DTEND;TZID=Europe/Warsaw:20241118T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-11-18T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241125T101500
+DTEND;TZID=Europe/Warsaw:20241125T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-11-25T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241202T101500
+DTEND;TZID=Europe/Warsaw:20241202T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-12-02T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241209T101500
+DTEND;TZID=Europe/Warsaw:20241209T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-12-09T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241216T101500
+DTEND;TZID=Europe/Warsaw:20241216T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-12-16T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241223T101500
+DTEND;TZID=Europe/Warsaw:20241223T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-12-23T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20241230T101500
+DTEND;TZID=Europe/Warsaw:20241230T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2024-12-30T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20250113T101500
+DTEND;TZID=Europe/Warsaw:20250113T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2025-01-13T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zaj. Zintegr. z nauk przedklinicznych
+DTSTART;TZID=Europe/Warsaw:20250120T101500
+DTEND;TZID=Europe/Warsaw:20250120T123000
+DTSTAMP:20251005T204947Z
+UID:20-Zaj. Zintegr. z nauk przedklinicznych-2025-01-20T10:15:00+01:00@cmu
+ j-wiki
+DESCRIPTION:Miejsce: CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7\nOkres: 
+ 03.XI-26.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy 
+ z oficjalnego planu UJ CM
+LOCATION:CIEM\, ul. Medyczna 7/ KBL\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241007T133000
+DTEND;TZID=Europe/Warsaw:20241007T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-10-07T13:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241014T133000
+DTEND;TZID=Europe/Warsaw:20241014T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-10-14T13:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241021T133000
+DTEND;TZID=Europe/Warsaw:20241021T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-10-21T13:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241028T133000
+DTEND;TZID=Europe/Warsaw:20241028T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-10-28T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241104T133000
+DTEND;TZID=Europe/Warsaw:20241104T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-11-04T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241118T133000
+DTEND;TZID=Europe/Warsaw:20241118T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-11-18T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241125T133000
+DTEND;TZID=Europe/Warsaw:20241125T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-11-25T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241202T133000
+DTEND;TZID=Europe/Warsaw:20241202T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-12-02T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241209T133000
+DTEND;TZID=Europe/Warsaw:20241209T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-12-09T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241216T133000
+DTEND;TZID=Europe/Warsaw:20241216T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-12-16T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241223T133000
+DTEND;TZID=Europe/Warsaw:20241223T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-12-23T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20241230T133000
+DTEND;TZID=Europe/Warsaw:20241230T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2024-12-30T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20250113T133000
+DTEND;TZID=Europe/Warsaw:20250113T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2025-01-13T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20250120T133000
+DTEND;TZID=Europe/Warsaw:20250120T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2025-01-20T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw.
+DTSTART;TZID=Europe/Warsaw:20250127T133000
+DTEND;TZID=Europe/Warsaw:20250127T150000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw.-2025-01-27T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\n\nGrupa: 20\n\n
+ 🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalnego planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241001T133000
+DTEND;TZID=Europe/Warsaw:20241001T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-10-01T13:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241008T133000
+DTEND;TZID=Europe/Warsaw:20241008T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-10-08T13:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241015T133000
+DTEND;TZID=Europe/Warsaw:20241015T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-10-15T13:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241022T133000
+DTEND;TZID=Europe/Warsaw:20241022T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-10-22T13:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241029T133000
+DTEND;TZID=Europe/Warsaw:20241029T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-10-29T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241105T133000
+DTEND;TZID=Europe/Warsaw:20241105T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-11-05T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241112T133000
+DTEND;TZID=Europe/Warsaw:20241112T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-11-12T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241119T133000
+DTEND;TZID=Europe/Warsaw:20241119T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-11-19T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241126T133000
+DTEND;TZID=Europe/Warsaw:20241126T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-11-26T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241203T133000
+DTEND;TZID=Europe/Warsaw:20241203T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-12-03T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241210T133000
+DTEND;TZID=Europe/Warsaw:20241210T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-12-10T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241217T133000
+DTEND;TZID=Europe/Warsaw:20241217T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-12-17T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241224T133000
+DTEND;TZID=Europe/Warsaw:20241224T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-12-24T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20241231T133000
+DTEND;TZID=Europe/Warsaw:20241231T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2024-12-31T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20250107T133000
+DTEND;TZID=Europe/Warsaw:20250107T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2025-01-07T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20250114T133000
+DTEND;TZID=Europe/Warsaw:20250114T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2025-01-14T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20250121T133000
+DTEND;TZID=Europe/Warsaw:20250121T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2025-01-21T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia ćw.
+DTSTART;TZID=Europe/Warsaw:20250128T133000
+DTEND;TZID=Europe/Warsaw:20250128T150000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia ćw.-2025-01-28T13:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241002T083000
+DTEND;TZID=Europe/Warsaw:20241002T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-10-02T08:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241009T083000
+DTEND;TZID=Europe/Warsaw:20241009T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-10-09T08:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241016T083000
+DTEND;TZID=Europe/Warsaw:20241016T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-10-16T08:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241023T083000
+DTEND;TZID=Europe/Warsaw:20241023T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-10-23T08:30:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241030T083000
+DTEND;TZID=Europe/Warsaw:20241030T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-10-30T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241106T083000
+DTEND;TZID=Europe/Warsaw:20241106T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-11-06T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241113T083000
+DTEND;TZID=Europe/Warsaw:20241113T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-11-13T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241120T083000
+DTEND;TZID=Europe/Warsaw:20241120T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-11-20T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241127T083000
+DTEND;TZID=Europe/Warsaw:20241127T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-11-27T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241204T083000
+DTEND;TZID=Europe/Warsaw:20241204T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-12-04T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241211T083000
+DTEND;TZID=Europe/Warsaw:20241211T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-12-11T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20241218T083000
+DTEND;TZID=Europe/Warsaw:20241218T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2024-12-18T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20250108T083000
+DTEND;TZID=Europe/Warsaw:20250108T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2025-01-08T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20250115T083000
+DTEND;TZID=Europe/Warsaw:20250115T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2025-01-15T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20250122T083000
+DTEND;TZID=Europe/Warsaw:20250122T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2025-01-22T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Etyka Sem
+DTSTART;TZID=Europe/Warsaw:20250129T083000
+DTEND;TZID=Europe/Warsaw:20250129T100000
+DTSTAMP:20251005T204947Z
+UID:20-Etyka Sem-2025-01-29T08:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+ \n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjaln
+ ego planu UJ CM
+LOCATION:Zakład Filozofii i Bioetyki\, ul. Michałowskiego 12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Historia Med. Sem
+DTSTART;TZID=Europe/Warsaw:20241120T123000
+DTEND;TZID=Europe/Warsaw:20241120T140000
+DTSTAMP:20251005T204947Z
+UID:20-Historia Med. Sem-2024-11-20T12:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Historii Medycyny\, ul. Kopernika 7\nOkres: 1
+ 9.XI-14.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z
+  oficjalnego planu UJ CM
+LOCATION:Katedra Historii Medycyny\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Historia Med. Sem
+DTSTART;TZID=Europe/Warsaw:20241127T123000
+DTEND;TZID=Europe/Warsaw:20241127T140000
+DTSTAMP:20251005T204947Z
+UID:20-Historia Med. Sem-2024-11-27T12:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Historii Medycyny\, ul. Kopernika 7\nOkres: 1
+ 9.XI-14.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z
+  oficjalnego planu UJ CM
+LOCATION:Katedra Historii Medycyny\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Historia Med. Sem
+DTSTART;TZID=Europe/Warsaw:20241204T123000
+DTEND;TZID=Europe/Warsaw:20241204T140000
+DTSTAMP:20251005T204947Z
+UID:20-Historia Med. Sem-2024-12-04T12:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Historii Medycyny\, ul. Kopernika 7\nOkres: 1
+ 9.XI-14.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z
+  oficjalnego planu UJ CM
+LOCATION:Katedra Historii Medycyny\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Historia Med. Sem
+DTSTART;TZID=Europe/Warsaw:20241211T123000
+DTEND;TZID=Europe/Warsaw:20241211T140000
+DTSTAMP:20251005T204947Z
+UID:20-Historia Med. Sem-2024-12-11T12:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Historii Medycyny\, ul. Kopernika 7\nOkres: 1
+ 9.XI-14.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z
+  oficjalnego planu UJ CM
+LOCATION:Katedra Historii Medycyny\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Historia Med. Sem
+DTSTART;TZID=Europe/Warsaw:20241218T123000
+DTEND;TZID=Europe/Warsaw:20241218T140000
+DTSTAMP:20251005T204947Z
+UID:20-Historia Med. Sem-2024-12-18T12:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Historii Medycyny\, ul. Kopernika 7\nOkres: 1
+ 9.XI-14.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z
+  oficjalnego planu UJ CM
+LOCATION:Katedra Historii Medycyny\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Historia Med. Sem
+DTSTART;TZID=Europe/Warsaw:20250108T123000
+DTEND;TZID=Europe/Warsaw:20250108T140000
+DTSTAMP:20251005T204947Z
+UID:20-Historia Med. Sem-2025-01-08T12:30:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Historii Medycyny\, ul. Kopernika 7\nOkres: 1
+ 9.XI-14.I\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z
+  oficjalnego planu UJ CM
+LOCATION:Katedra Historii Medycyny\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw. do 6.XI
+DTSTART;TZID=Europe/Warsaw:20241003T080000
+DTEND;TZID=Europe/Warsaw:20241003T093000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw. do 6.XI-2024-10-03T08:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\nOkres: do 6.XI\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw. do 6.XI
+DTSTART;TZID=Europe/Warsaw:20241010T080000
+DTEND;TZID=Europe/Warsaw:20241010T093000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw. do 6.XI-2024-10-10T08:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\nOkres: do 6.XI\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw. do 6.XI
+DTSTART;TZID=Europe/Warsaw:20241017T080000
+DTEND;TZID=Europe/Warsaw:20241017T093000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw. do 6.XI-2024-10-17T08:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\nOkres: do 6.XI\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw. do 6.XI
+DTSTART;TZID=Europe/Warsaw:20241024T080000
+DTEND;TZID=Europe/Warsaw:20241024T093000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw. do 6.XI-2024-10-24T08:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\nOkres: do 6.XI\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Histologia ćw. do 6.XI
+DTSTART;TZID=Europe/Warsaw:20241031T080000
+DTEND;TZID=Europe/Warsaw:20241031T093000
+DTSTAMP:20251005T204947Z
+UID:20-Histologia ćw. do 6.XI-2024-10-31T08:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Histologii\, ul. Kopernika 7\nOkres: do 6.XI\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Histologii\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241003T110000
+DTEND;TZID=Europe/Warsaw:20241003T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-10-03T11:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241010T110000
+DTEND;TZID=Europe/Warsaw:20241010T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-10-10T11:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241017T110000
+DTEND;TZID=Europe/Warsaw:20241017T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-10-17T11:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241024T110000
+DTEND;TZID=Europe/Warsaw:20241024T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-10-24T11:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241031T110000
+DTEND;TZID=Europe/Warsaw:20241031T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-10-31T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241107T110000
+DTEND;TZID=Europe/Warsaw:20241107T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-11-07T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241114T110000
+DTEND;TZID=Europe/Warsaw:20241114T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-11-14T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241121T110000
+DTEND;TZID=Europe/Warsaw:20241121T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-11-21T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241128T110000
+DTEND;TZID=Europe/Warsaw:20241128T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-11-28T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241205T110000
+DTEND;TZID=Europe/Warsaw:20241205T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-12-05T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241212T110000
+DTEND;TZID=Europe/Warsaw:20241212T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-12-12T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20241219T110000
+DTEND;TZID=Europe/Warsaw:20241219T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2024-12-19T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20250102T110000
+DTEND;TZID=Europe/Warsaw:20250102T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2025-01-02T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20250109T110000
+DTEND;TZID=Europe/Warsaw:20250109T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2025-01-09T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20250116T110000
+DTEND;TZID=Europe/Warsaw:20250116T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2025-01-16T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20250123T110000
+DTEND;TZID=Europe/Warsaw:20250123T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2025-01-23T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WF
+DTSTART;TZID=Europe/Warsaw:20250130T110000
+DTEND;TZID=Europe/Warsaw:20250130T123000
+DTSTAMP:20251005T204947Z
+UID:20-WF-2025-01-30T11:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Studium Wychowania Fizycznego i Sportu\, ul. Badurski
+ ego 19\n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z of
+ icjalnego planu UJ CM
+LOCATION:Studium Wychowania Fizycznego i Sportu\, ul. Badurskiego 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241003T140000
+DTEND;TZID=Europe/Warsaw:20241003T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-10-03T14:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241010T140000
+DTEND;TZID=Europe/Warsaw:20241010T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-10-10T14:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241017T140000
+DTEND;TZID=Europe/Warsaw:20241017T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-10-17T14:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241024T140000
+DTEND;TZID=Europe/Warsaw:20241024T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-10-24T14:00:00+02:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241031T140000
+DTEND;TZID=Europe/Warsaw:20241031T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-10-31T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241107T140000
+DTEND;TZID=Europe/Warsaw:20241107T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-11-07T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241114T140000
+DTEND;TZID=Europe/Warsaw:20241114T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-11-14T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241121T140000
+DTEND;TZID=Europe/Warsaw:20241121T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-11-21T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241128T140000
+DTEND;TZID=Europe/Warsaw:20241128T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-11-28T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241205T140000
+DTEND;TZID=Europe/Warsaw:20241205T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-12-05T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241212T140000
+DTEND;TZID=Europe/Warsaw:20241212T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-12-12T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20241219T140000
+DTEND;TZID=Europe/Warsaw:20241219T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2024-12-19T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20250102T140000
+DTEND;TZID=Europe/Warsaw:20250102T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2025-01-02T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20250109T140000
+DTEND;TZID=Europe/Warsaw:20250109T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2025-01-09T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20250116T140000
+DTEND;TZID=Europe/Warsaw:20250116T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2025-01-16T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20250123T140000
+DTEND;TZID=Europe/Warsaw:20250123T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2025-01-23T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biochemia  Sem.
+DTSTART;TZID=Europe/Warsaw:20250130T140000
+DTEND;TZID=Europe/Warsaw:20250130T153000
+DTSTAMP:20251005T204947Z
+UID:20-Biochemia  Sem.-2025-01-30T14:00:00+01:00@cmuj-wiki
+DESCRIPTION:Miejsce: Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7\
+ n\nGrupa: 20\n\n🩺 Wygenerowano przez CMUJ Wiki\n📍 Adresy z oficjalne
+ go planu UJ CM
+LOCATION:Katedra Biochemii Lekarskiej (KBL)\, ul. Kopernika 7
+END:VEVENT
+END:VCALENDAR

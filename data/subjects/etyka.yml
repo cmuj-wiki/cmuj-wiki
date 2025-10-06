@@ -1,0 +1,52 @@
+# Etyka w medycynie - Semestr 1
+# Last updated: 2025-10-05
+
+slug: etyka
+name: "Etyka w medycynie"
+name_short: "Etyka"
+semester: 1
+last_verified: "2025-10-05"
+
+# Cover image
+cover_image: "assets/images/subjects/etyka.png"
+
+syllabus:
+  ects: 2
+  coordinator:
+    name: "Katedra Etyki Lekarskiej"
+    email: "etyka@cm-uj.krakow.pl"  # TODO: Verify contact
+  hours:
+    total: 15
+    wyklady: 15
+    cwiczenia: 0
+    seminaria: 0
+  exam_type: "Zaliczenie"
+  syllabus_pdf: "https://sylabus.cm-uj.krakow.pl/pl/document/[UUID].pdf"  # TODO
+  department_url: "http://etyka.cm-uj.krakow.pl/"  # TODO: Verify URL
+
+medbox:
+  folder_main: "https://drive.google.com/drive/folders/[ETYKA_FOLDER_ID]"  # TODO
+  resources:
+    wyklady:
+      - title: "Prezentacje z wykładów"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+        description: "Materiały z wykładów z etyki lekarskiej"
+
+    skrypty:
+      - title: "Notatki i skrypty"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+
+kolokwia:
+  - title: "Zaliczenie - Etyka w medycynie"
+    date: "2026-01-20"  # TODO: Verify date
+    link: "kolokwia/semestr-1/etyka-zaliczenie-1"
+
+harmonogram_url: "https://wl.cm.uj.edu.pl/"  # TODO: Find specific schedule
+
+external_resources:
+  - title: "Kodeks Etyki Lekarskiej"
+    url: "https://www.nil.org.pl/dokumenty/kodeks-etyki-lekarskiej"
+    type: "document"
+  - title: "European Code of Medical Ethics"
+    url: "https://www.cpme.eu/policies/ethics/"
+    type: "document"

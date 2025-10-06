@@ -1,0 +1,228 @@
+# Kolokwia i Egzaminy - Dane ręczne
+# Ten plik zawiera daty kolokwiów i egzaminów dla wszystkich przedmiotów
+# Format: YYYY-MM-DD dla dat
+
+anatomia:
+  kolokwia:
+    - date: "2025-11-06"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Osteologia i czaszka"
+      groups: [1, 2, 3, 4]
+
+    - date: "2025-11-07"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Osteologia i czaszka"
+      groups: [5, 6, 7, 8]
+
+    - date: "2025-11-18"
+      time: "08:00-09:30"
+      type: "testowe"
+      topic: "Kości, czaszka"
+      location: "Online i grupy 1-4 w sali wykładowej Katedry"
+      groups: [1, 2, 3, 4]
+
+    - date: "2025-12-04"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Ogólne"
+      groups: [9, 10, 11, 12]
+
+    - date: "2025-12-05"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Ogólne"
+      groups: [13, 14, 15, 16]
+
+    - date: "2025-12-08"
+      time: "08:00-09:30"
+      type: "testowe"
+      topic: "Ogólne"
+      location: "Online i grupy 5-8 w sali wykładowej Katedry"
+      groups: [5, 6, 7, 8]
+
+    - date: "2026-01-22"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Klatka piersiowa, kończyna górna"
+      note: "wg oddzielnego harmonogramu"
+      groups: [1, 2, 3, 4, 5, 6, 7, 8]
+
+    - date: "2026-01-23"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Klatka piersiowa, kończyna górna"
+      note: "wg oddzielnego harmonogramu"
+      groups: [9, 10, 11, 12, 13, 14, 15, 16]
+
+    - date: "2026-01-26"
+      time: "08:00-09:30"
+      type: "testowe"
+      topic: "Klatka piersiowa, kończyna górna"
+      location: "Online i grupy 9-12 w sali wykładowej Katedry"
+      groups: [9, 10, 11, 12]
+
+    - date: "2026-03-30"
+      time: "08:00-09:30"
+      type: "testowe"
+      topic: "Jama brzuszna, miednica, kończyna dolna"
+      location: "Online i grupy 13-16 w sali wykładowej Katedry"
+      groups: [13, 14, 15, 16]
+
+    - date: "2026-03-31"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Jama brzuszna, miednica, kończyna dolna"
+      note: "wg oddzielnego harmonogramu"
+      groups: [1, 2, 3, 4, 5, 6, 7, 8]
+
+    - date: "2026-04-01"
+      time: "15:00-17:30"
+      type: "praktyczne"
+      topic: "Jama brzuszna, miednica, kończyna dolna"
+      note: "wg oddzielnego harmonogramu"
+      groups: [9, 10, 11, 12, 13, 14, 15, 16]
+
+    - date: "2026-05-14"
+      time: "15:00"
+      type: "praktyczne"
+      topic: "Ogólne"
+      groups: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    - date: "2026-05-15"
+      time: "15:00"
+      type: "praktyczne"
+      topic: "Ogólne"
+      groups: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    - date: "2026-05-18"
+      time: "08:00"
+      type: "testowe"
+      topic: "Ogólne"
+      location: "Online i grupy 17-20 w sali wykładowej Katedry"
+      groups: [17, 18, 19, 20]
+
+    - date: "2026-06-01"
+      time: "08:00"
+      type: "zaliczeniowe"
+      topic: "Całość materiału"
+      location: "Stacjonarnie"
+      groups: "all"
+
+  egzaminy:
+    - date: "2026-06-16"
+      time: "15:00-17:30"
+      type: "praktyczny"
+      term: "I termin"
+      groups: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    - date: "2026-06-17"
+      time: "15:00-17:30"
+      type: "praktyczny"
+      term: "I termin"
+      groups: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    - date: "2026-06-22"
+      time: "08:00"
+      type: "testowy"
+      term: "I termin"
+      note: "Termin i godz. może ulec zmianie"
+
+    - date: "2026-09-01"
+      time: null
+      type: "zaliczeniowe"
+      term: "II termin"
+
+    - date: "2026-09-04"
+      time: null
+      type: "praktyczny"
+      term: "II termin"
+
+  specjalne:
+    - date: "2026-05-25"
+      time: "08:00-09:30"
+      type: "wykład"
+      topic: "Porównanie mianownictwa anatomii prawidłowej i klinicznej - różnice i skróty"
+      prowadzacy: "dr hab. n. med. Marcin Kuniewicz"
+      location: "Online"
+
+biochemia:
+  kolokwia:
+    - date: "2025-12-10"
+      time: "18:00"
+      type: "kolokwium 1"
+      topic: "Chemia, białka, enzymy"
+      groups: "all"
+
+    - date: "2026-01-30"
+      time: "08:30"
+      type: "kolokwium 2"
+      topic: "Genetyka / biologia molekularna"
+      groups: "all"
+
+  egzaminy:
+    - date: "2026-06-11"
+      time: "15:00-17:30"
+      type: "powtórki"
+      location: "Prosektorium"
+
+    - date: "2026-06-12"
+      time: "15:00-17:30"
+      type: "powtórki"
+      location: "Prosektorium"
+
+histologia:
+  kolokwia:
+    - date: "2025-11-20"
+      time: "18:00"
+      type: "kolokwium"
+      topic: "Cytologia i tkanki"
+      groups: "all"
+
+    - date: "2025-12-16"
+      time: "08:00"
+      type: "poprawkowe"
+      topic: "Cytologia i tkanki"
+      groups: "all"
+      note: "Termin poprawkowy"
+
+    - date: "2026-01-13"
+      time: "08:00"
+      type: "zaliczeniowe"
+      topic: "Cytologia i tkanki"
+      groups: "all"
+
+  egzaminy:
+    - date: "2026-02-02"
+      time: "09:00-15:00"
+      type: "praktyczny"
+      note: "wg odrębnego harmonogramu"
+      groups: "all"
+
+    - date: "2026-02-03"
+      time: "09:00-15:00"
+      type: "praktyczny"
+      note: "wg odrębnego harmonogramu (kontynuacja)"
+      groups: "all"
+
+    - date: "2026-02-05"
+      time: "12:45"
+      type: "teoretyczny"
+      groups: "all"
+
+    - date: "2026-02-23"
+      time: "09:00"
+      type: "praktyczny - poprawkowy"
+      groups: "all"
+
+    - date: "2026-02-23"
+      time: "10:00"
+      type: "teoretyczny - poprawkowy"
+      groups: "all"
+
+# TODO: Dodać pozostałe przedmioty gdy będą dostępne harmonogramy
+# - Fizjologia
+# - BHK (Biofizyka, Hygiena, Kierunkowość)
+# - Etyka w medycynie
+# - Historia medycyny

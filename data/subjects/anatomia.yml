@@ -1,0 +1,234 @@
+# Anatomia z embriologią - Semestr 1
+# Last updated: 2025-10-05
+
+slug: anatomia
+name: "Anatomia z embriologią"
+name_short: "Anatomia"
+semester: 1
+last_verified: "2025-10-05"
+
+# Cover image (place in docs/assets/images/subjects/)
+cover_image: "assets/images/subjects/anatomia.png"  # TODO: Add image
+
+# Multi-semester subject tracking
+subject_group: "Anatomia"
+subject_part: 1
+total_parts: 2
+continues_in_semester: 2
+
+# Official UJ Syllabus Data
+syllabus:
+  ects: 14
+  coordinator:
+    name: "Katedra Anatomii"
+    email: "anatomia@cm-uj.krakow.pl"  # TODO: Verify actual contact
+  hours:
+    total: 94
+    wyklady: 20
+    cwiczenia: 74
+    seminaria: 0
+    e_learning: 20
+  exam_type: "Egzamin praktyczny i teoretyczny"
+  prerequisites: []
+  syllabus_pdf: "https://sylabus.cm-uj.krakow.pl/pl/document/9ff824e0-3a92-4c5e-9248-64d1b5df4b3e.pdf"
+  department_url: "http://anatomia.cm-uj.krakow.pl/"
+
+# MedBox Resources (Google Drive)
+medbox:
+  folder_main: "https://drive.google.com/drive/folders/1Lmj3rA5r9ELw4vMoiIEV_lMMmM5t0JP3"
+  resources:
+    ksiazki:
+      - title: "Bochenek - Anatomia Człowieka"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+        description: "Klasyczny polski podręcznik anatomii"
+      - title: "Sobotta Atlas Anatomii Człowieka"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+        description: "Atlas anatomiczny (wydanie polskie)"
+      - title: "Netter Atlas of Human Anatomy"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+        description: "Atlas anatomiczny (wersja angielska)"
+
+    szpilki:
+      - title: "Zdjęcia preparatów do egzaminu praktycznego"
+        url: "https://drive.google.com/drive/folders/[FOLDER_ID]"  # TODO
+        description: "Fotografie preparatów z prosektorium z opisami"
+
+# Kolokwia and Exams
+kolokwia:
+  - title: "Kolokwium praktyczne - Osteologia i czaszka"
+    date: "06-07.11.2025"
+    scope: "Osteologia i czaszka"
+    link: "kolokwia/semestr-1/anatomia-kolokwia-1"
+  - title: "Kolokwium testowe - Kości, czaszka"
+    date: "18.11.2025"
+    scope: "Kości, czaszka"
+    link: "kolokwia/semestr-1/anatomia-kolokwia-2"
+  - title: "Kolokwium praktyczne"
+    date: "04-05.12.2025"
+    link: "kolokwia/semestr-1/anatomia-kolokwia-3"
+  - title: "Kolokwium testowe"
+    date: "08.12.2025"
+    link: "kolokwia/semestr-1/anatomia-kolokwia-4"
+  - title: "Kolokwium praktyczne - Klatka piersiowa, kończyna górna"
+    date: "22-23.01.2026"
+    scope: "Klatka piersiowa, kończyna górna"
+    link: "kolokwia/semestr-1/anatomia-kolokwia-5"
+  - title: "Kolokwium testowe - Klatka piersiowa, kończyna górna"
+    date: "26.01.2026"
+    scope: "Klatka piersiowa, kończyna górna"
+    link: "kolokwia/semestr-1/anatomia-kolokwia-6"
+
+egzaminy:
+  - title: "Egzamin praktyczny I termin"
+    date: "2026-06-16"
+    link: "kolokwia/semestr-1/anatomia-egzaminy-1"
+  - title: "Egzamin teoretyczny I termin"
+    date: "2026-06-22"
+    link: "kolokwia/semestr-1/anatomia-egzaminy-3"
+
+# Additional Resources
+external_resources:
+  - title: "Kenhub - Anatomia online"
+    url: "https://www.kenhub.com/"
+    type: "website"
+  - title: "TeachMeAnatomy"
+    url: "https://teachmeanatomy.info/"
+    type: "website"
+  - title: "Complete Anatomy App"
+    url: "https://completeanatomy.com/"
+    type: "app"
+
+# Harmonogram link
+harmonogram_url: "https://katedra-anatomii.cm-uj.krakow.pl/cm/uploads/2025/09/Lekarski_Harmonogram-2025-26.pdf"
+
+# Class Schedule (Harmonogram zajęć) - Semestr 1
+harmonogram_classes:
+  - class_number: 1
+    date: "02-03.10.2025"
+    topic: "Wprowadzenie do ćwiczeń prosektoryjnych. Osie, płaszczyzny i okolice ciała ludzkiego. Miana oznaczające położenie i kierunek określonych narządów i tworów. Ogólna budowa kości i ich skład anatomiczny (istota zbita, gąbczasta, okostna, ochrzęstna, szpik kostny, architektonika czynnościowa). Podział kości ze względu na kształt i charakterystyka poszczególnych rodzajów kości. Fizyczne i biologiczne właściwości kości. Rozwój, wzrastanie i czynności kości. Ogólna budowa i rodzaje połączeń ścisłych i wolnych (stawów). Stałe i niestałe składniki stawów. Rodzaje i mechanika stawów."
+  - class_number: 2
+    date: "06.10.2025"
+    topic: "Wykład: Wstęp do anatomii. Anatomia układu krążenia. Nowe kierunki badań anatomicznych."
+  - class_number: 3
+    date: "07-08.10.2025"
+    topic: "Kręgosłup: kręgi szyjne, piersiowe, lędźwiowe, kość krzyżowa, kość guziczna. Połączenia kręgosłupa. Kręgosłup, jako całość. Szkielet klatki piersiowej: żebra, mostek, stawy żebrowo-kręgowe, połączenia żeber z mostkiem. Klatka piersiowa, jako całość."
+  - class_number: 4
+    date: "09-10.10.2025"
+    topic: "Szkielet kończyny górnej: obręcz barkowa, obojczyk, łopatka, staw mostkowo-obojczykowy i barkowo-obojczykowy. Kości: ramienna, łokciowa, promieniowa. Stawy: ramienny, łokciowy, promieniowo-łokciowy dalszy. Kości nadgarstka: śródręcza, palców. Stawy: promieniowo-nadgarstkowy i ręki."
+  - class_number: 5
+    date: "13.10.2025"
+    topic: "Wykład: Wstępne etapy rozwoju człowieka. Gametogeneza. Cykl jajnikowy. Zapłodnienie. Pierwsze etapy rozwoju zarodka. Implantacja. Gastrulacja. Losy listków zarodkowych. Neurulacja."
+  - class_number: 6
+    date: "14-15.10.2025"
+    topic: "Szkielet kończyny dolnej: obręcz kończyny dolnej, kość miedniczna, kości: biodrowa, kulszowa i łonowa. Połączenia kości miednicznych między sobą i z kością krzyżową. Miednica, jako całość. Kość udowa. Staw biodrowy."
+  - class_number: 7
+    date: "16-17.10.2025"
+    topic: "Piszczel, strzałka, rzepka, staw kolanowy. Szkielet stopy: stęp, kości śródstopia i palców stopy. Stawy: skokowy górny i dolny. Pozostałe stawy stopy. Stopa, jako całość."
+  - class_number: 8
+    date: "20.10.2025"
+    topic: "Wykład: Wstępne informacje na temat nerwów czaszkowych."
+  - class_number: 9
+    date: "21-22.10.2025"
+    topic: "Budowa kości: czołowej, potylicznej, ciemieniowej, klinowej."
+  - class_number: 10
+    date: "23-24.10.2025"
+    topic: "Budowa kości skroniowej. Kanały kości skroniowej. Przewód słuchowy zewnętrzny. Ucho środkowe: jama bębenkowa, trąbka słuchowa, jama sutkowa, komórki sutkowe. Ucho wewnętrzne – budowa błędnika kostnego. Kość sitowa."
+  - class_number: 11
+    date: "27.10.2025"
+    topic: "Wykład: Podstawy diagnostyki obrazowej – wstęp do anatomii radiologicznej."
+  - class_number: 12
+    date: "28-29.10.2025"
+    topic: "Doły czaszki: ograniczenia, zawartość, komunikacja. Oczodół, jama nosowa, jama ustna ograniczenia i komunikacja. Miejsca wyjścia nerwów czaszkowych z czaszki."
+  - class_number: 13
+    date: "03.11.2025"
+    topic: "Wykład: Rozwój ośrodkowego układu nerwowego. Nerwy czaszkowe ze szczególnym uwzględnieniem nerwu trójdzielnego."
+  - class_number: 14
+    date: "04-05.11.2025"
+    topic: "Kości twarzoczaszki: szczęka, żuchwa, lemiesz, małżowina nosowa dolna, kość jarzmowa, kość łzowa, kość nosowa, podniebienna, kość gnykowa. Staw skroniowo-żuchwowy. Staw górny i dolny głowy."
+  - class_number: 15
+    date: "06-07.11.2025"
+    topic: "⚡ KOLOKWIUM PRAKTYCZNE: Osteologia i czaszka."
+    time: "Według grafiku grup"
+  - class_number: 16
+    date: "18.11.2025"
+    topic: "⚡ KOLOKWIUM TESTOWE: Kości, czaszka."
+    time: "08:00"
+  - class_number: 17
+    date: "12-13.11.2025"
+    topic: "Budowa zewnętrzna i wewnętrzna rdzenia kręgowego. ABC układu nerwowego. Opony mózgowia. Zatoki żylne opon mózgowia. Unaczynienie i unerwienie opony twardej."
+  - class_number: 18
+    date: "17.11.2025"
+    topic: "Wykład: Unaczynienie ośrodkowego układu nerwowego – aspekty kliniczne."
+  - class_number: 19
+    date: "18-19.11.2025"
+    topic: "Budowa zewnętrzna i wewnętrzna pnia mózgu. Móżdżek."
+  - class_number: 20
+    date: "20-21.11.2025"
+    topic: "Budowa zewnętrzna mózgu. Jądra podkorowe. Układ komorowy. Unaczynienie mózgowia. Drogi piramidowe. Układ pozapiramidowy. Drogi czuciowe."
+  - class_number: 21
+    date: "24.11.2025"
+    topic: "Wykład: Autonomiczny układ nerwowy. Podstawowe pojęcia dotyczące układu nerwowego (ABC układu nerwowego)."
+  - class_number: 22
+    date: "25-26.11.2025"
+    topic: "Droga wzrokowa, węchowa, smakowa, słuchowa, równowagi. Układ limbiczny."
+  - class_number: 23
+    date: "27-28.11.2025"
+    topic: "Zajęcia powtórkowe."
+  - class_number: 24
+    date: "01.12.2025"
+    topic: "Wykład: Rozwój serca i układu naczyniowego."
+  - class_number: 25
+    date: "02-03.12.2025"
+    topic: "Zajęcia powtórkowe."
+  - class_number: 26
+    date: "04-05.12.2025"
+    topic: "⚡ KOLOKWIUM PRAKTYCZNE."
+    time: "Według grafiku grup"
+  - class_number: 27
+    date: "08.12.2025"
+    topic: "⚡ KOLOKWIUM TESTOWE."
+    time: "08:00"
+  - class_number: 28
+    date: "09-10.12.2025"
+    topic: "Budowa ściany klatki piersiowej. Sutek – położenie, budowa, unaczynienie, odpływ chłonki. Mięśnie warstwy środkowej i głębokiej: przyczepy, unerwienie, funkcja. Przepona: budowa, unaczynienie, unerwienie, funkcja. Unaczynienie i unerwienie ścian klatki piersiowej. Śródpiersie: podział, ograniczenia. Zawartość śródpiersia przedtchawiczego. Grasica – położenie, budowa, unaczynienie, unerwienie. Naczynia żylne i tętnicze śródpiersia przedtchawiczego. Nerw przeponowy, błędny – przebieg w obrębie kaletki piersiowej, zakres unerwienia w obrębie klatki piersiowej. Tchawica: budowa, położenie, unaczynienie, unerwienie."
+  - class_number: 29
+    date: "11-12.12.2025"
+    topic: "Śródpiersie dolne środkowe. Worek osierdziowy. Serce: szczegółowa budowa ściany serca. Szkielet serca. Układ przewodzący serca. Zastawki serca. Tętnice wieńcowe: przebieg, zakres unaczynienia. Naczynia żylne i chłonne serca. Splot sercowy. Rzuty serca, zastawek, miejsca osłuchiwania zastawek. Aorta wstępująca przebieg odgałęzienia."
+  - class_number: 30
+    date: "15.12.2025"
+    topic: "Wykład: Anatomia echokardiograficzna w praktyce klinicznej."
+  - class_number: 31
+    date: "17.12.2025"
+    topic: "Jama opłucnej. Rodzaje opłucnej. Unaczynienie, unerwienie, rzuty opłucnej. Budowa zewnętrzna i wewnętrzna płuc. Drzewo oddechowe i oskrzelowe. Unaczynienie odżywcze i czynnościowe płuc. Odpływ chłonki i unerwienie płuc. Oddychanie."
+  - class_number: 32
+    date: "18-19.12.2025"
+    topic: "Śródpiersie zatchawicze i dolne. Przebieg i odgałęzienia aorty zstępującej. Żyły nieparzyste przebieg, dopływy. Przewód piersiowy, przewód chłonny prawy. Budowa, położenie pnia sympatycznego (współczulnego)."
+  - class_number: 33
+    date: "08-09.01.2026"
+    topic: "Mięśnie obręczy barkowej. Grupa przednia i tylna mięśni ramienia. Ograniczenia i zawartość dołu pachowego, otworu czworobocznego i trójbocznego. Splot ramienny budowa położenie. Gałęzie krótkie splotu ramiennego. Tętnica podobojczykowa – przebieg, odgałęzienia."
+  - class_number: 34
+    date: "12.01.2026"
+    topic: "Wykład: Rozwój układu pokarmowego."
+  - class_number: 35
+    date: "13-14.01.2026"
+    topic: "Przebieg i zakres unerwienia, objawy uszkodzenia nerwu: pachowego, promieniowego, mięśniowo-skórnego, łokciowego, pośrodkowego, piersiowego długiego, piersiowo-grzbietowego, skórnego przyśrodkowego ramienia i przedramienia. Tętnica pachowa, ramienna, łokciowa, promieniowa – przebieg odgałęzienia. Łuk dłoniowy powierzchowny i głęboki – położenie odgałęzienia. Naczynia żylne powierzchowne i głębokie kończyny górnej. Naczynia i węzły chłonne."
+  - class_number: 36
+    date: "15-21.01.2026"
+    topic: "Powtórki. Seminaria: Anatomia kliniczna klatki piersiowej, serca i naczyń w aspekcie zabiegów kardiochirurgicznych, torakochirurgicznych i interwencji przezskórnych w oparciu o badania obrazowe."
+  - class_number: 37
+    date: "19.01.2026"
+    topic: "Wykład: Anatomia ścian jamy brzusznej w aspekcie przepuklin."
+  - class_number: 38
+    date: "22-23.01.2026"
+    topic: "⚡ KOLOKWIUM PRAKTYCZNE: Klatka piersiowa, kończyna górna."
+    time: "Według grafiku grup"
+  - class_number: 39
+    date: "26.01.2026"
+    topic: "⚡ KOLOKWIUM TESTOWE: Klatka piersiowa, kończyna górna."
+    time: "08:00"
+  - class_number: 40
+    date: "27-28.01.2026"
+    topic: "Budowa ściany jamy brzusznej. Mięśnie ściany tylnej, bocznej i przedniej. Naczynia tętnicze i żylne, unerwienie, odpływa chłonki ze ściany jamy brzusznej. Jama otrzewnowa. Rodzaje otrzewnej. Zachyłki jamy otrzewnowej."
+  - class_number: 41
+    date: "29-30.01.2026"
+    topic: "Aorta brzuszna – położenie odgałęzienia. Żyła główna dolna, żyła wrotna, krezkowa górna i dolna przebieg, dopływy. Splot trzewny. Splot międzykrezkowy, krezkowy dolny, podbrzuszny. Splot lędźwiowy położenie, budowa. Przebieg i zakres unerwienia nerwu biodrowo-podbrzusznego, biodrowo-pachwinowego, płciowo-udowego, zasłonowego."
