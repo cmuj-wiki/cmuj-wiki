@@ -1,5 +1,23 @@
 # Jak dodać materiały do wiki?
 
+## ⚠️ Wymagane hasło edytora
+
+!!! warning "Dostęp do edycji wymaga specjalnego hasła"
+    **WAŻNE:** Aby edytować strony wiki, potrzebujesz **hasła edytora** (nie zwykłego hasła studenckiego).
+
+    - 🔒 **Hasło studenckie** - pozwala tylko przeglądać wiki (przycisk edycji ✏️ jest ukryty)
+    - 🔓 **Hasło edytora** - pokazuje przycisk edycji ✏️ i pozwala wprowadzać zmiany
+
+    **Jak uzyskać hasło edytora?**
+
+    - Zapytaj starszego studenta lub administratora wiki na czacie grupy
+    - Hasło edytora jest udostępniane tylko osobom, które chcą aktywnie współtworzyć wiki
+
+!!! tip "Nie martw się - nie możesz nic zepsuć!"
+    - Twoje zmiany są sprawdzane przed publikacją
+    - GitHub zapisuje wszystko - każdą zmianę można cofnąć
+    - Możesz eksperymentować bez obaw!
+
 ## 🎯 Dlaczego warto dodawać materiały?
 
 - Pomagasz setkom studentów, którzy będą po Tobie
@@ -22,10 +40,26 @@
 2. To zabiera 2 minuty i jest **całkowicie za darmo**
 
 ### Krok 3: Edytuj plik
-1. GitHub pokaże Ci zawartość pliku w formacie Markdown
-2. Kliknij ikonę ołówka, aby edytować
-3. Wprowadź swoje zmiany (patrz [składnia Markdown](#skladnia-markdown) poniżej)
-4. Przewiń na dół i kliknij "Propose changes"
+
+**Co zobaczysz:** GitHub pokaże Ci plik źródłowy w formacie **Markdown** (końcówka `.md`)
+
+!!! info "Co to jest Markdown?"
+    Markdown to prosty sposób formatowania tekstu - piszesz zwykły tekst ze specjalnymi znakami:
+
+    - `**pogrubienie**` → **pogrubienie**
+    - `*kursywa*` → *kursywa*
+    - `# Nagłówek` → duży nagłówek
+
+    To **NIE jest HTML** - to znacznie prostszy język! Edytujesz plik źródłowy (jak kod), a nie gotową stronę.
+
+    💡 **Analogia:** To jak "zaproponuj zmiany" w Google Docs - edytujesz treść, a system sam ją sformatuje.
+
+**Jak edytować:**
+
+1. Kliknij ikonę ołówka (✏️), aby rozpocząć edycję
+2. Wprowadź swoje zmiany w edytorze tekstowym
+3. Zobacz [składnię Markdown](#skladnia-markdown) poniżej - to bardzo proste!
+4. Przewiń na dół i kliknij "Propose changes" (zaproponuj zmiany)
 
 ### Krok 4: Wyślij propozycję (Pull Request)
 1. GitHub stworzy "pull request" - propozycję zmiany

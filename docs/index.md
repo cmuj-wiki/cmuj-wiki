@@ -2,6 +2,15 @@
 
 **CMUJ Wiki** to strona stworzona przez studentów dla studentów kierunku lekarskiego na **Uniwersytecie Jagiellońskim Collegium Medicum**.
 
+!!! warning "🚧 Strona w budowie"
+    Ta aplikacja jest aktywnie rozwijana przez studentów. Wiele funkcji jest jeszcze w fazie testów i nie wszystko działa w 100%.
+
+    **Jak możesz pomóc:**
+
+    - 📱 Jeśli znajdziesz błąd - napisz na czacie grupy
+    - ✏️ Chcesz dodać materiały? [Zobacz instrukcję →](jak-edytowac.md)
+    - 💬 Masz pomysł na ulepszenie? Podziel się w dyskusji grupowej
+
 ## 🎯 Co znajdziesz na tej stronie?
 
 - 📚 **Materiały do nauki** - wykłady, egzaminy, kolokwia z wszystkich 12 semestrów

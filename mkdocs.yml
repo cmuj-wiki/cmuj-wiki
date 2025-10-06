@@ -55,12 +55,13 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
 
   announcement:
-    text: '🚧 <strong>Ta strona jest w budowie!</strong> Wiele treści to jeszcze placeholdery. Chcesz pomóc? <a href="jak-edytowac.html">Zobacz jak dodać materiały →</a>'
+    text: '🚧 <strong>Aplikacja w rozwoju!</strong> Nie wszystko jeszcze działa. Chcesz pomóc? Napisz na czacie grupy lub <a href="jak-edytowac.html">zobacz jak dodać materiały →</a>'
 
 extra_css:
   - stylesheets/homepage-widget.css
   - stylesheets/quiz.css
   - stylesheets/calendar.css
+  - stylesheets/mobile-fixes.css
 
 extra_javascript:
   - javascripts/password-gate.js
