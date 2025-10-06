@@ -5,25 +5,38 @@
     'use strict';
 
     // Configuration
-    const CORRECT_PASSWORD_HASH = '5f4dcc3b5aa765d61d8327deb882cf99'; // MD5 hash of "password"
+    const STUDENT_PASSWORD = 'wawelskimedyk';
+    const ADMIN_PASSWORD = 'totalnyszefpozaadminem';
     const SESSION_KEY = 'cmuj_wiki_authenticated';
+    const ROLE_KEY = 'cmuj_wiki_role';
 
     // Check if already authenticated in this session
     if (sessionStorage.getItem(SESSION_KEY) === 'true') {
+        applyRolePermissions(sessionStorage.getItem(ROLE_KEY));
         return; // Already authenticated, allow access
     }
 
     // Hide page content initially
     document.body.style.visibility = 'hidden';
 
-    // Simple MD5 hash function (for basic obfuscation only)
-    function simpleHash(str) {
-        // You should replace this with actual MD5 or SHA-256
-        // For now, using a placeholder
-        return str.split('').reduce((a, b) => {
-            a = ((a << 5) - a) + b.charCodeAt(0);
-            return a & a;
-        }, 0).toString(16);
+    // Apply role-based permissions
+    function applyRolePermissions(role) {
+        if (role === 'student') {
+            // Hide edit button for students
+            const style = document.createElement('style');
+            style.id = 'student-restrictions';
+            style.textContent = `
+                .md-content__button.md-icon[title*="Edit"] {
+                    display: none !important;
+                }
+                /* Also hide the edit action link */
+                a.md-content__button[href*="edit"] {
+                    display: none !important;
+                }
+            `;
+            document.head.appendChild(style);
+        }
+        // Admin role: no restrictions, edit button stays visible
     }
 
     // Prompt for password
@@ -37,10 +50,18 @@
             return;
         }
 
-        // Check password (using simple comparison for now)
-        // Password: wawelskimedyk
-        if (password === 'wawelskimedyk') {
+        // Check passwords
+        if (password === ADMIN_PASSWORD) {
+            // Admin access - full permissions
             sessionStorage.setItem(SESSION_KEY, 'true');
+            sessionStorage.setItem(ROLE_KEY, 'admin');
+            applyRolePermissions('admin');
+            document.body.style.visibility = 'visible';
+        } else if (password === STUDENT_PASSWORD) {
+            // Student access - restricted
+            sessionStorage.setItem(SESSION_KEY, 'true');
+            sessionStorage.setItem(ROLE_KEY, 'student');
+            applyRolePermissions('student');
             document.body.style.visibility = 'visible';
         } else {
             alert('❌ Nieprawidłowe hasło!');
