@@ -58,7 +58,6 @@ extra:
     text: '🚧 <strong>Ta strona jest w budowie!</strong> Wiele treści to jeszcze placeholdery. Chcesz pomóc? <a href="jak-edytowac.html">Zobacz jak dodać materiały →</a>'
 
 extra_css:
-  - stylesheets/nojs-protection.css
   - stylesheets/homepage-widget.css
   - stylesheets/quiz.css
   - stylesheets/calendar.css

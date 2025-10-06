@@ -148,7 +148,6 @@
     // Check if already authenticated in this session
     if (sessionStorage.getItem(SESSION_KEY) === 'true') {
         applyRolePermissions(sessionStorage.getItem(ROLE_KEY));
-        document.body.style.display = '';  // Remove display:none from CSS
         document.body.style.visibility = 'visible';
         return; // Already authenticated, allow access
     }
@@ -195,7 +194,6 @@
             sessionStorage.setItem(SESSION_KEY, 'true');
             sessionStorage.setItem(ROLE_KEY, 'admin');
             applyRolePermissions('admin');
-            document.body.style.display = '';  // Remove display:none from CSS
             document.body.style.visibility = 'visible';
             showInstallPrompt(); // Show PWA install prompt
         } else if (passwordHash === STUDENT_PASSWORD_HASH) {
@@ -203,7 +201,6 @@
             sessionStorage.setItem(SESSION_KEY, 'true');
             sessionStorage.setItem(ROLE_KEY, 'student');
             applyRolePermissions('student');
-            document.body.style.display = '';  // Remove display:none from CSS
             document.body.style.visibility = 'visible';
             showInstallPrompt(); // Show PWA install prompt
         } else {

@@ -4,3 +4,41 @@
   {{ super() }}
   {% include "partials/pwa.html" %}
 {% endblock %}
+
+{% block content %}
+  <noscript>
+    <div style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: white;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999999;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    ">
+      <div style="text-align: center; padding: 40px; max-width: 500px;">
+        <h1 style="color: #5c6bc0; font-size: 32px; margin-bottom: 20px;">🔒 JavaScript jest wymagany</h1>
+        <p style="font-size: 18px; line-height: 1.6; margin-bottom: 15px;">
+          Ta strona wymaga włączonego JavaScript w przeglądarce.
+        </p>
+        <p style="font-size: 16px; color: #666;">
+          Włącz JavaScript i odśwież stronę, aby uzyskać dostęp do CMUJ Wiki.
+        </p>
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+        <h2 style="color: #5c6bc0; font-size: 24px; margin-bottom: 15px;">🔒 JavaScript Required</h2>
+        <p style="font-size: 16px; line-height: 1.6; color: #666;">
+          This site requires JavaScript to be enabled in your browser.
+        </p>
+        <p style="font-size: 14px; color: #999; margin-top: 20px;">
+          Please enable JavaScript and refresh the page to access CMUJ Wiki.
+        </p>
+      </div>
+    </div>
+  </noscript>
+  {{ super() }}
+{% endblock %}
