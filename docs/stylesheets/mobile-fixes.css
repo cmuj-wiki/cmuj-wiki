@@ -298,17 +298,6 @@
     }
 }
 
-/* Very small screens - hide text, show only icon */
-@media screen and (max-width: 30em) { /* 480px */
-    .pwa-install-text {
-        display: none;
-    }
-
-    .pwa-install-icon {
-        margin-right: 0;
-    }
-}
-
 /* ============================================================================
    PWA iOS INSTRUCTIONS MODAL
    ============================================================================ */

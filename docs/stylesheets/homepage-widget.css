@@ -219,7 +219,7 @@
     align-self: center;
     padding: 0.5rem 1rem;
     background: var(--md-primary-fg-color);
-    color: var(--md-primary-bg-color);
+    color: white !important;
     text-decoration: none;
     border-radius: 4px;
     font-size: 0.875rem;
@@ -323,4 +323,17 @@
 
 [data-md-color-scheme="slate"] .class-item {
     background: var(--md-code-bg-color);
+}
+
+/* Fix dark mode text colors - ensure subject names are visible */
+[data-md-color-scheme="slate"] .event-subject {
+    color: var(--md-default-fg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .event-topic {
+    color: var(--md-default-fg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .class-subject {
+    color: var(--md-default-fg-color) !important;
 }

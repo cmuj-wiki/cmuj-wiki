@@ -70,39 +70,6 @@
 !!! tip "Nie martw się o błędy"
     Zanim Twoje zmiany trafią na stronę, zostaną sprawdzone przez innych. Możesz eksperymentować bez obaw!
 
-## 💻 Metoda 2: Edycja lokalna (dla zaawansowanych)
-
-Jeśli znasz Git i chcesz wprowadzić większe zmiany:
-
-### Wymagania
-```bash
-pip install mkdocs-material
-```
-
-### Kroki
-```bash
-# 1. Sklonuj repozytorium (lub zrób fork)
-git clone https://github.com/yourusername/cmuj-wiki.git
-cd cmuj-wiki
-
-# 2. Stwórz nową gałąź
-git checkout -b moje-zmiany
-
-# 3. Edytuj pliki w folderze docs/
-# (używaj swojego ulubionego edytora)
-
-# 4. Testuj lokalnie
-mkdocs serve
-# Otwórz http://127.0.0.1:8000 w przeglądarce
-
-# 5. Zatwierdź zmiany
-git add .
-git commit -m "Dodano materiały z biochemii"
-git push origin moje-zmiany
-
-# 6. Otwórz Pull Request na GitHubie
-```
-
 ## 📝 Składnia Markdown {#skladnia-markdown}
 
 Markdown to prosty język do formatowania tekstu. Oto podstawy:
