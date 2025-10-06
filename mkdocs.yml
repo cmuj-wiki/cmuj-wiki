@@ -62,6 +62,7 @@ extra_css:
   - stylesheets/calendar.css
 
 extra_javascript:
+  - javascripts/password-gate.js
   - javascripts/homepage-widget.js
   - javascripts/quiz-engine.js
   - javascripts/calendar-widget.js
