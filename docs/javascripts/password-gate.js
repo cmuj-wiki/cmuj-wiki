@@ -1,6 +1,19 @@
 // Simple password gate for CMUJ Wiki
 // This is NOT cryptographically secure - it's just a basic deterrent
 
+// ============================================================================
+// PWA INSTALL PROMPT - Must be captured BEFORE password gate
+// ============================================================================
+
+let deferredPrompt = null;
+
+// Capture the install prompt event IMMEDIATELY (before password check)
+window.addEventListener('beforeinstallprompt', (e) => {
+    console.log('[PWA] beforeinstallprompt event captured');
+    e.preventDefault();
+    deferredPrompt = e;
+});
+
 (function() {
     'use strict';
 
@@ -213,23 +226,19 @@
     // PWA INSTALL PROMPT
     // ============================================================================
 
-    let deferredPrompt = null;
-
-    // Capture the install prompt event
-    window.addEventListener('beforeinstallprompt', (e) => {
-        console.log('[PWA] beforeinstallprompt event captured');
-        e.preventDefault();
-        deferredPrompt = e;
-    });
-
     // Show custom install prompt after successful login
     function showInstallPrompt() {
         // Check if prompt should be shown
         const promptShown = localStorage.getItem('pwa_install_prompt_shown');
         const promptDismissed = sessionStorage.getItem('pwa_install_dismissed');
 
+        console.log('[PWA] showInstallPrompt called');
+        console.log('[PWA] deferredPrompt:', deferredPrompt ? 'captured' : 'NOT captured');
+        console.log('[PWA] promptShown:', promptShown);
+        console.log('[PWA] Browser:', navigator.userAgent);
+
         if (deferredPrompt && !promptShown && !promptDismissed) {
-            console.log('[PWA] Showing install prompt');
+            console.log('[PWA] ✅ Showing install prompt');
 
             // Create modal
             const modal = document.createElement('div');
