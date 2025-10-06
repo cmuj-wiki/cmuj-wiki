@@ -273,14 +273,17 @@
         display: flex !important;
         align-items: center;
         gap: 0.4rem;
-        padding: 0 0.6rem;
-        color: var(--md-primary-bg-color);
+        padding: 0.4rem 0.8rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 0.2rem;
+        color: white;
         text-decoration: none;
-        transition: opacity 0.2s ease;
+        transition: all 0.2s ease;
     }
 
     #pwa-install-button:hover {
-        opacity: 0.8;
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-1px);
     }
 
     .pwa-install-icon {
@@ -316,7 +319,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1000;
+    z-index: 10000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,20 +341,22 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(4px);
+    z-index: 1;
 }
 
 .pwa-modal-content {
     position: relative;
     background: var(--md-default-bg-color);
     color: var(--md-default-fg-color);
-    padding: 2rem;
-    border-radius: 12px;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     max-width: 90%;
     width: 400px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    z-index: 1;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    z-index: 2;
     animation: slideUp 0.3s ease;
 }
 
@@ -368,25 +373,28 @@
 
 .pwa-modal-close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    background: none;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: rgba(0, 0, 0, 0.1);
     border: none;
-    font-size: 2rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
     line-height: 1;
     cursor: pointer;
     color: var(--md-default-fg-color--light);
     padding: 0;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .pwa-modal-close:hover {
+    background: rgba(0, 0, 0, 0.2);
     color: var(--md-default-fg-color);
+    transform: scale(1.1);
 }
 
 .pwa-modal-icon {
