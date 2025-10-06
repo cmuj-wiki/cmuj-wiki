@@ -1,7 +1,7 @@
 site_name: CMUJ Wiki - Kierunek Lekarski
 site_description: Wiki dla studentów kierunku lekarskiego UJ Collegium Medicum
 site_author: Studenci CMUJ
-site_url: https://cmuj-wiki.github.io/wiki
+site_url: https://cmuj-wiki.github.io/cmuj-wiki
 
 theme:
   name: material
@@ -47,7 +47,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/cmuj-wiki/wiki
+      link: https://github.com/cmuj-wiki/cmuj-wiki
 
   analytics:
     provider: google
@@ -155,8 +155,8 @@ nav:
     - FAQ: faq.md
     - Informacje prawne: legal.md
 
-repo_url: https://github.com/cmuj-wiki/wiki
-repo_name: wiki
+repo_url: https://github.com/cmuj-wiki/cmuj-wiki
+repo_name: cmuj-wiki
 edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2025 Studenci UJ Collegium Medicum
