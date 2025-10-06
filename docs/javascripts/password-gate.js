@@ -38,8 +38,8 @@
         }
 
         // Check password (using simple comparison for now)
-        // Change "cmujstudent2025" to your actual password
-        if (password === 'cmujstudent2025') {
+        // Password: wawelskimedyk
+        if (password === 'wawelskimedyk') {
             sessionStorage.setItem(SESSION_KEY, 'true');
             document.body.style.visibility = 'visible';
         } else {
