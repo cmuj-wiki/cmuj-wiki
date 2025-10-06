@@ -39,7 +39,7 @@
         }
 
         // ====================================================================
-        // 2. iOS Detection
+        // 2. Browser/Platform Detection
         // ====================================================================
         function isIOS() {
             const platforms = [
@@ -64,6 +64,17 @@
             return false;
         }
 
+        function isFirefox() {
+            return navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+        }
+
+        // Firefox doesn't support beforeinstallprompt - hide button to avoid broken UX
+        if (isFirefox()) {
+            console.log('[PWA Install] Firefox detected, hiding button (no beforeinstallprompt support)');
+            installButton.style.display = 'none';
+            return;
+        }
+
         // ====================================================================
         // 3. Listen for beforeinstallprompt (Chrome/Android)
         // ====================================================================
@@ -78,10 +89,21 @@
         });
 
         // ====================================================================
-        // 4. Show button on iOS immediately
+        // 4. Show button on iOS immediately with instructional text
         // ====================================================================
         if (isIOS() && !isStandalone) {
-            console.log('[PWA Install] iOS detected, showing button');
+            console.log('[PWA Install] iOS detected, showing button with instructional text');
+
+            // Change button text to set correct expectations (shows instructions, not direct install)
+            const buttonTextElement = installButton.querySelector('.pwa-install-text');
+            if (buttonTextElement) {
+                buttonTextElement.textContent = 'Jak zainstalować?';
+            }
+
+            // Update tooltip
+            installButton.title = 'Instrukcja instalacji';
+
+            // Show the button
             installButton.style.display = 'flex';
         }
 
