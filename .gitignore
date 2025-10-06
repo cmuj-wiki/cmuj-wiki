@@ -44,3 +44,16 @@ Thumbs.db
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Backup and temporary files
+*.backup
+*_BACKUP.*
+*_backup.*
+*_BROKEN.*
+*_broken.*
+*_OLD.*
+*_old.*
+*.old
+*.tmp
+*_test.json
+test_*.json

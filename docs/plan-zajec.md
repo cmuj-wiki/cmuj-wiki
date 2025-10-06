@@ -48,64 +48,64 @@ Pobierz swój plan zajęć w formacie ICS i zaimportuj go do swojego kalendarza 
 </style>
 
 <div class="group-selector">
-  <a href="../static/calendars/grupa_1.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_1.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 1
   </a>
-  <a href="../static/calendars/grupa_2.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_2.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 2
   </a>
-  <a href="../static/calendars/grupa_3.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_3.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 3
   </a>
-  <a href="../static/calendars/grupa_4.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_4.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 4
   </a>
-  <a href="../static/calendars/grupa_5.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_5.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 5
   </a>
-  <a href="../static/calendars/grupa_6.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_6.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 6
   </a>
-  <a href="../static/calendars/grupa_7.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_7.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 7
   </a>
-  <a href="../static/calendars/grupa_8.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_8.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 8
   </a>
-  <a href="../static/calendars/grupa_9.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_9.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 9
   </a>
-  <a href="../static/calendars/grupa_10.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_10.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 10
   </a>
-  <a href="../static/calendars/grupa_11.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_11.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 11
   </a>
-  <a href="../static/calendars/grupa_12.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_12.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 12
   </a>
-  <a href="../static/calendars/grupa_13.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_13.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 13
   </a>
-  <a href="../static/calendars/grupa_14.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_14.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 14
   </a>
-  <a href="../static/calendars/grupa_15.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_15.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 15
   </a>
-  <a href="../static/calendars/grupa_16.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_16.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 16
   </a>
-  <a href="../static/calendars/grupa_17.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_17.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 17
   </a>
-  <a href="../static/calendars/grupa_18.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_18.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 18
   </a>
-  <a href="../static/calendars/grupa_19.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_19.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 19
   </a>
-  <a href="../static/calendars/grupa_20.ics" class="group-btn" download>
+  <a href="../static/calendars_v2/grupa_20.ics" class="group-btn" download>
     <span class="download-icon">📥</span> Grupa 20
   </a>
 </div>
