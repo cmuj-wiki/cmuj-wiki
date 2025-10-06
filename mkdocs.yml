@@ -65,6 +65,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/password-gate.js
+  - javascripts/pwa-install.js
   - javascripts/homepage-widget.js
   - javascripts/quiz-engine.js
   - javascripts/calendar-widget.js

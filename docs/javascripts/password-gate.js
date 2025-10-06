@@ -208,131 +208,20 @@ window.addEventListener('beforeinstallprompt', (e) => {
             sessionStorage.setItem(ROLE_KEY, 'admin');
             applyRolePermissions('admin');
             document.body.style.visibility = 'visible';
-            showInstallPrompt(); // Show PWA install prompt
         } else if (passwordHash === STUDENT_PASSWORD_HASH) {
             // Student access - restricted
             sessionStorage.setItem(SESSION_KEY, 'true');
             sessionStorage.setItem(ROLE_KEY, 'student');
             applyRolePermissions('student');
             document.body.style.visibility = 'visible';
-            showInstallPrompt(); // Show PWA install prompt
         } else {
             alert('❌ Nieprawidłowe hasło!');
             checkPassword(); // Try again
         }
     }
 
-    // ============================================================================
-    // PWA INSTALL PROMPT
-    // ============================================================================
-
-    // Show custom install prompt after successful login
-    function showInstallPrompt() {
-        // Check if prompt should be shown
-        const promptShown = localStorage.getItem('pwa_install_prompt_shown');
-        const promptDismissed = sessionStorage.getItem('pwa_install_dismissed');
-
-        console.log('[PWA] showInstallPrompt called');
-        console.log('[PWA] deferredPrompt:', deferredPrompt ? 'captured' : 'NOT captured');
-        console.log('[PWA] promptShown:', promptShown);
-        console.log('[PWA] Browser:', navigator.userAgent);
-
-        if (deferredPrompt && !promptShown && !promptDismissed) {
-            console.log('[PWA] ✅ Showing install prompt');
-
-            // Create modal
-            const modal = document.createElement('div');
-            modal.id = 'pwa-install-modal';
-            modal.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(0, 0, 0, 0.8);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                z-index: 999999;
-                animation: fadeIn 0.3s ease;
-            `;
-
-            modal.innerHTML = `
-                <div style="
-                    background: white;
-                    border-radius: 16px;
-                    padding: 30px;
-                    max-width: 400px;
-                    margin: 20px;
-                    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-                    text-align: center;
-                    color: #333;
-                ">
-                    <div style="font-size: 48px; margin-bottom: 20px;">📱</div>
-                    <h2 style="margin: 0 0 15px 0; color: #5c6bc0; font-size: 24px;">
-                        Zainstaluj aplikację!
-                    </h2>
-                    <p style="margin: 0 0 25px 0; font-size: 16px; line-height: 1.5; color: #666;">
-                        Możesz teraz zainstalować CMUJ Wiki na swoim telefonie!<br>
-                        Szybszy dostęp i działanie offline.
-                    </p>
-                    <button id="pwa-install-btn" style="
-                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                        color: white;
-                        border: none;
-                        padding: 15px 30px;
-                        font-size: 16px;
-                        font-weight: bold;
-                        border-radius: 8px;
-                        cursor: pointer;
-                        margin: 0 10px 10px 0;
-                        transition: transform 0.2s;
-                    " onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
-                        🚀 Zainstaluj teraz
-                    </button>
-                    <button id="pwa-dismiss-btn" style="
-                        background: transparent;
-                        color: #666;
-                        border: 1px solid #ddd;
-                        padding: 15px 30px;
-                        font-size: 16px;
-                        border-radius: 8px;
-                        cursor: pointer;
-                        transition: all 0.2s;
-                    " onmouseover="this.style.background='#f5f5f5'" onmouseout="this.style.background='transparent'">
-                        Może później
-                    </button>
-                </div>
-            `;
-
-            document.body.appendChild(modal);
-
-            // Install button handler
-            document.getElementById('pwa-install-btn').addEventListener('click', async () => {
-                console.log('[PWA] Install button clicked');
-                modal.remove();
-
-                // Show browser's install prompt
-                deferredPrompt.prompt();
-
-                // Wait for user's response
-                const { outcome } = await deferredPrompt.userChoice;
-                console.log('[PWA] User response:', outcome);
-
-                // Mark as shown (don't show again)
-                localStorage.setItem('pwa_install_prompt_shown', 'true');
-                deferredPrompt = null;
-            });
-
-            // Dismiss button handler
-            document.getElementById('pwa-dismiss-btn').addEventListener('click', () => {
-                console.log('[PWA] Install prompt dismissed');
-                modal.remove();
-                // Mark as dismissed for this session only
-                sessionStorage.setItem('pwa_install_dismissed', 'true');
-            });
-        }
-    }
+    // PWA install prompt is now handled by pwa-install.js
+    // Automatic popup removed in favor of persistent header button
 
     // ============================================================================
     // SERVICE WORKER REGISTRATION
