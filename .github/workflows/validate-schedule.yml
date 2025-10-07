@@ -1,0 +1,57 @@
+name: Validate Schedule Data
+
+on:
+  push:
+    paths:
+      - 'docs/static/schedule_data_v2.json'
+      - 'scripts/schedule-schema.json'
+      - '.github/workflows/validate-schedule.yml'
+  pull_request:
+    paths:
+      - 'docs/static/schedule_data_v2.json'
+      - 'scripts/schedule-schema.json'
+      - '.github/workflows/validate-schedule.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate Schedule JSON
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats
+
+      - name: Validate schedule data against schema
+        run: |
+          echo "🔍 Validating schedule_data_v2.json against schema..."
+          ajv validate \
+            -s scripts/schedule-schema.json \
+            -d docs/static/schedule_data_v2.json \
+            --strict=false \
+            --all-errors
+
+      - name: Validation successful
+        if: success()
+        run: |
+          echo "✅ Schedule data is valid!"
+          echo "📊 File size: $(du -h docs/static/schedule_data_v2.json | cut -f1)"
+          echo "📝 Number of events: $(jq 'length' docs/static/schedule_data_v2.json)"
+
+      - name: Validation failed
+        if: failure()
+        run: |
+          echo "❌ Schedule data validation failed!"
+          echo ""
+          echo "Please check the errors above and:"
+          echo "1. Use the schedule editor tool: https://cmuj-wiki.github.io/cmuj-wiki/schedule-editor.html"
+          echo "2. Or fix the JSON manually and validate locally"
+          echo ""
+          exit 1
