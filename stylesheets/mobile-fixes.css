@@ -1,0 +1,459 @@
+/**
+ * CMUJ Wiki - Mobile Responsive Fixes
+ * Improves mobile experience for tables, buttons, and layout
+ */
+
+/* ============================================================================
+   RESPONSIVE SEMESTER TABLES
+   ============================================================================ */
+
+/* Tablet and below - make tables scrollable horizontally */
+@media (max-width: 1024px) {
+    /* Wrap tables in scrollable container */
+    .md-content__inner table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        border: 1px solid var(--md-default-fg-color--lightest);
+        border-radius: 4px;
+    }
+
+    /* Add subtle shadow to indicate scrollability */
+    .md-content__inner table {
+        box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Ensure table doesn't shrink too much */
+    .md-content__inner table {
+        min-width: 600px;
+    }
+
+    /* Better spacing for table cells on tablet */
+    .md-content__inner table td,
+    .md-content__inner table th {
+        padding: 0.75rem 0.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+/* Mobile phones - more aggressive optimizations */
+@media (max-width: 768px) {
+    /* Add scroll hint indicator */
+    .md-content__inner table::after {
+        content: "← Przesuń w bok →";
+        display: block;
+        text-align: center;
+        padding: 0.5rem;
+        background: var(--md-code-bg-color);
+        color: var(--md-default-fg-color--light);
+        font-size: 0.75rem;
+        font-style: italic;
+        border-top: 1px solid var(--md-default-fg-color--lightest);
+    }
+
+    /* Compact table cells on mobile */
+    .md-content__inner table td,
+    .md-content__inner table th {
+        padding: 0.5rem 0.4rem;
+        font-size: 0.813rem;
+    }
+
+    /* Reduce link padding inside tables */
+    .md-content__inner table a {
+        padding: 0.25rem 0.5rem;
+        display: inline-block;
+    }
+
+    /* Make semester header links more prominent on mobile */
+    .md-content__inner table th a {
+        font-weight: 700;
+        font-size: 0.875rem;
+    }
+}
+
+/* ============================================================================
+   TOUCH-FRIENDLY IMPROVEMENTS
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    /* Ensure all clickable elements meet 44×44px minimum (Apple/Android guideline) */
+    a, button, .md-button, input[type="button"] {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Better spacing between clickable elements */
+    .md-content a {
+        padding: 0.5rem;
+        margin: 0.25rem 0;
+    }
+
+    /* Larger tap targets for navigation */
+    .md-nav__link {
+        padding: 0.75rem 1rem;
+    }
+
+    /* Better spacing for admonition blocks */
+    .admonition {
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+
+    /* Improve readability of code blocks on mobile */
+    code {
+        font-size: 0.875rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    pre code {
+        font-size: 0.813rem;
+    }
+}
+
+/* ============================================================================
+   HOMEPAGE WIDGET MOBILE ENHANCEMENTS
+   ============================================================================ */
+
+@media (max-width: 480px) {
+    /* Stack event cards more compactly */
+    .event-card {
+        padding: 0.75rem;
+        gap: 0.75rem;
+    }
+
+    /* Smaller group selector buttons on very small screens */
+    .group-grid {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        gap: 0.5rem;
+    }
+
+    .group-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.875rem;
+    }
+
+    /* Compact class schedule items */
+    .class-item {
+        padding: 0.5rem;
+        font-size: 0.813rem;
+    }
+}
+
+/* ============================================================================
+   FONT SIZE ADJUSTMENTS FOR READABILITY
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    /* Ensure body text is at least 16px (prevents iOS zoom on input focus) */
+    body {
+        font-size: 16px;
+    }
+
+    /* Scale headings appropriately */
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1.125rem;
+    }
+
+    /* Better line height for reading on small screens */
+    p, li {
+        line-height: 1.6;
+    }
+}
+
+/* ============================================================================
+   HORIZONTAL SCROLL WRAPPER (Alternative approach)
+   ============================================================================ */
+
+/* Add visual gradient to indicate more content when scrolling */
+@media (max-width: 768px) {
+    .md-content__inner {
+        position: relative;
+    }
+
+    /* Subtle gradient on right edge when table overflows */
+    .md-content__inner table {
+        background:
+            linear-gradient(90deg, transparent 0%, transparent calc(100% - 40px), var(--md-default-bg-color) 100%),
+            var(--md-default-bg-color);
+    }
+}
+
+/* ============================================================================
+   PASSWORD GATE MODAL MOBILE FIXES
+   ============================================================================ */
+
+@media (max-width: 480px) {
+    /* Ensure PWA install modal fits on small screens */
+    #pwa-install-modal > div {
+        max-width: 90% !important;
+        margin: 10px !important;
+        padding: 20px !important;
+    }
+
+    #pwa-install-modal h2 {
+        font-size: 1.25rem !important;
+    }
+
+    #pwa-install-modal p {
+        font-size: 0.875rem !important;
+    }
+
+    #pwa-install-modal button {
+        padding: 12px 20px !important;
+        font-size: 0.875rem !important;
+        width: 100%;
+        margin: 0.5rem 0 !important;
+    }
+}
+
+/* ============================================================================
+   NAVIGATION IMPROVEMENTS
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    /* Better spacing for mobile navigation */
+    .md-nav--primary .md-nav__title {
+        padding: 1rem;
+    }
+
+    /* Larger touch targets for navigation items */
+    .md-nav__item {
+        padding: 0.25rem 0;
+    }
+
+    /* Improve search bar on mobile */
+    .md-search__input {
+        font-size: 16px; /* Prevent iOS zoom */
+        padding: 0.75rem 1rem;
+    }
+}
+
+/* ============================================================================
+   DARK MODE SPECIFIC FIXES
+   ============================================================================ */
+
+[data-md-color-scheme="slate"] {
+    /* Ensure tables have good contrast in dark mode */
+    @media (max-width: 768px) {
+        .md-content__inner table {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .md-content__inner table::after {
+            background: var(--md-code-bg-color);
+            border-top-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+}
+
+/* ============================================================================
+   PWA INSTALL BUTTON (MOBILE ONLY)
+   ============================================================================ */
+
+/* Hide button by default (desktop) */
+#pwa-install-button {
+    display: none !important;
+}
+
+/* Show on mobile screens (MkDocs Material breakpoint) */
+@media screen and (max-width: 76.1875em) { /* 1219px */
+    #pwa-install-button {
+        display: flex !important;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.4rem 0.8rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 0.2rem;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+
+    #pwa-install-button:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-1px);
+    }
+
+    .pwa-install-icon {
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+
+    .pwa-install-text {
+        font-size: 0.875rem;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+}
+
+/* ============================================================================
+   PWA iOS INSTRUCTIONS MODAL
+   ============================================================================ */
+
+.pwa-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.pwa-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.pwa-modal-content {
+    position: relative;
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 90%;
+    width: 400px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.pwa-modal-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--md-default-fg-color--light);
+    padding: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.pwa-modal-close:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--md-default-fg-color);
+    transform: scale(1.1);
+}
+
+.pwa-modal-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pwa-modal-content h3 {
+    margin: 0 0 1rem 0;
+    color: var(--md-primary-fg-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.pwa-modal-content p {
+    margin: 1rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.pwa-modal-content ol {
+    text-align: left;
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.pwa-modal-content ol li {
+    margin: 0.75rem 0;
+    line-height: 1.6;
+}
+
+.pwa-modal-content ol li strong {
+    color: var(--md-primary-fg-color);
+}
+
+.pwa-modal-note {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--md-default-fg-color--light);
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* Mobile adjustments for modal */
+@media (max-width: 480px) {
+    .pwa-modal-content {
+        padding: 1.5rem;
+        width: 95%;
+    }
+
+    .pwa-modal-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .pwa-modal-content p,
+    .pwa-modal-content ol li {
+        font-size: 0.938rem;
+    }
+
+    .pwa-modal-icon {
+        font-size: 2.5rem;
+    }
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .pwa-modal-overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+[data-md-color-scheme="slate"] .pwa-modal-content {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}

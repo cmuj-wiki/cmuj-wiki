@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edytor Harmonogramu - CMUJ Wiki</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            padding: 2rem;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #3f51b5;
+            margin-bottom: 1rem;
+        }
+
+        .instructions {
+            background: #e3f2fd;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+            border-left: 4px solid #2196f3;
+        }
+
+        .instructions h2 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1976d2;
+        }
+
+        .instructions ol {
+            margin-left: 1.5rem;
+        }
+
+        .instructions li {
+            margin: 0.3rem 0;
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: #3f51b5;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #303f9f;
+        }
+
+        .btn-success {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #388e3c;
+        }
+
+        .btn-danger {
+            background: #f44336;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #d32f2f;
+        }
+
+        .btn-secondary {
+            background: #757575;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #616161;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .file-input-wrapper input[type=file] {
+            position: absolute;
+            left: -9999px;
+        }
+
+        .stats {
+            padding: 0.75rem;
+            background: #f5f5f5;
+            border-radius: 4px;
+            margin-left: auto;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin-bottom: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: #3f51b5;
+            color: white;
+            padding: 0.75rem 0.5rem;
+            text-align: left;
+            position: sticky;
+            top: 0;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+        }
+
+        td[contenteditable="true"] {
+            background: #fff;
+            cursor: text;
+        }
+
+        td[contenteditable="true"]:hover {
+            background: #fffde7;
+        }
+
+        td[contenteditable="true"]:focus {
+            background: #fff9c4;
+            outline: 2px solid #ffd54f;
+        }
+
+        .delete-btn {
+            background: #f44336;
+            color: white;
+            border: none;
+            padding: 0.3rem 0.6rem;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        .delete-btn:hover {
+            background: #d32f2f;
+        }
+
+        .validation-results {
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 4px;
+        }
+
+        .validation-results.success {
+            background: #e8f5e9;
+            border: 1px solid #4caf50;
+            color: #2e7d32;
+        }
+
+        .validation-results.error {
+            background: #ffebee;
+            border: 1px solid #f44336;
+            color: #c62828;
+        }
+
+        .validation-results h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .validation-results ul {
+            margin-left: 1.5rem;
+        }
+
+        .validation-results li {
+            margin: 0.3rem 0;
+        }
+
+        .output-section {
+            margin-top: 2rem;
+            display: none;
+        }
+
+        .output-section.visible {
+            display: block;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 300px;
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        .helper-text {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 0.25rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #999;
+        }
+
+        .empty-state svg {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            .container {
+                padding: 1rem;
+            }
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .stats {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📅 Edytor Harmonogramu</h1>
+
+        <div class="instructions">
+            <h2>Instrukcja</h2>
+            <ol>
+                <li><strong>Wczytaj</strong> plik JSON z GitHuba (pobierz <code>schedule_data_v2.json</code>)</li>
+                <li><strong>Edytuj</strong> wpisy bezpośrednio w tabeli (kliknij w komórkę)</li>
+                <li><strong>Dodaj</strong> nowe zajęcia przyciskiem "Dodaj zajęcia"</li>
+                <li><strong>Usuń</strong> zajęcia przyciskiem "×" w ostatniej kolumnie</li>
+                <li><strong>Wygeneruj JSON</strong> - sprawdzi poprawność i skopiuje do schowka</li>
+                <li><strong>Wklej</strong> w GitHubie do pliku <code>docs/static/schedule_data_v2.json</code></li>
+            </ol>
+            <p class="helper-text" style="margin-top: 0.5rem;">
+                <strong>Format dat:</strong> <code>do 7.XI</code> (do 7 listopada), <code>28.XI - 16.I</code> (od 28 listopada do 16 stycznia), <code>15.X</code> (tylko 15 października)
+            </p>
+        </div>
+
+        <div class="controls">
+            <div class="file-input-wrapper">
+                <label class="btn btn-primary" for="file-input">
+                    📂 Wczytaj JSON
+                </label>
+                <input type="file" id="file-input" accept=".json">
+            </div>
+            <button class="btn btn-success" id="add-row-btn">➕ Dodaj zajęcia</button>
+            <button class="btn btn-secondary" id="clear-btn">🗑️ Wyczyść wszystko</button>
+            <div class="stats" id="stats">Wczytaj plik, aby rozpocząć</div>
+        </div>
+
+        <div id="validation-output"></div>
+
+        <div class="table-wrapper" id="table-container">
+            <div class="empty-state">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                </svg>
+                <p>Wczytaj plik JSON, aby rozpocząć edycję</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-success" id="generate-btn" disabled>✅ Generuj i kopiuj JSON</button>
+        </div>
+
+        <div class="output-section" id="output-section">
+            <h2>Wygenerowany JSON</h2>
+            <textarea id="output-json" readonly></textarea>
+            <p class="helper-text">JSON został automatycznie skopiowany do schowka! Wklej go w GitHubie.</p>
+        </div>
+    </div>
+
+    <!-- JSON Schema (embedded) -->
+    <script id="schedule-schema" type="application/json">
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CMUJ Schedule Data",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "group": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 20
+      },
+      "day": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 6
+      },
+      "day_name": {
+        "type": ["string", "null"],
+        "enum": ["Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota", "Niedziela", null]
+      },
+      "hour": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 23
+      },
+      "minute": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 59
+      },
+      "duration": {
+        "type": "integer",
+        "minimum": 15,
+        "maximum": 480
+      },
+      "subject": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "type": {
+        "type": ["string", "null"]
+      },
+      "location": {
+        "type": ["string", "null"]
+      },
+      "dates": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^(do\\s+\\d{1,2}\\.[IVX]+|\\d{1,2}\\.[IVX]+\\s*-\\s*\\d{1,2}\\.[IVX]+|\\d{1,2}\\.[IVX]+)$"
+        }
+      },
+      "time": {
+        "type": "null"
+      }
+    },
+    "required": ["group", "day", "hour", "minute", "duration", "subject"],
+    "additionalProperties": false
+  }
+}
+    </script>
+
+    <!-- AJV for JSON Schema validation (from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/ajv@8.12.0/dist/ajv7.min.js"></script>
+
+    <script>
+        // State
+        let scheduleData = [];
+        const DAY_NAMES = ["Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota", "Niedziela"];
+
+        // Elements
+        const fileInput = document.getElementById('file-input');
+        const addRowBtn = document.getElementById('add-row-btn');
+        const clearBtn = document.getElementById('clear-btn');
+        const generateBtn = document.getElementById('generate-btn');
+        const tableContainer = document.getElementById('table-container');
+        const validationOutput = document.getElementById('validation-output');
+        const outputSection = document.getElementById('output-section');
+        const outputJson = document.getElementById('output-json');
+        const stats = document.getElementById('stats');
+
+        // Schema
+        const schema = JSON.parse(document.getElementById('schedule-schema').textContent);
+        const ajv = new Ajv({allErrors: true, strict: false});
+        const validate = ajv.compile(schema);
+
+        // Event listeners
+        fileInput.addEventListener('change', handleFileLoad);
+        addRowBtn.addEventListener('click', addNewRow);
+        clearBtn.addEventListener('click', clearAll);
+        generateBtn.addEventListener('click', generateJSON);
+
+        function handleFileLoad(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                try {
+                    scheduleData = JSON.parse(event.target.result);
+                    renderTable();
+                    updateStats();
+                    generateBtn.disabled = false;
+                    showValidationResult(true, 'Plik wczytany pomyślnie!');
+                } catch (error) {
+                    showValidationResult(false, 'Błąd wczytywania pliku: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function renderTable() {
+            if (scheduleData.length === 0) {
+                tableContainer.innerHTML = `
+                    <div class="empty-state">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                        </svg>
+                        <p>Brak danych. Dodaj pierwsze zajęcia!</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const table = document.createElement('table');
+
+            // Header
+            const thead = table.createTHead();
+            const headerRow = thead.insertRow();
+            ['Grupa', 'Dzień', 'Nazwa dnia', 'Godz.', 'Min.', 'Czas [min]', 'Przedmiot', 'Typ', 'Lokalizacja', 'Daty', 'Akcje'].forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+
+            // Body
+            const tbody = table.createTBody();
+            scheduleData.forEach((event, index) => {
+                const row = tbody.insertRow();
+                row.dataset.index = index;
+
+                // Editable cells
+                addEditableCell(row, event.group, index, 'group', 'number');
+                addEditableCell(row, event.day, index, 'day', 'number');
+                addEditableCell(row, event.day_name || '', index, 'day_name', 'text');
+                addEditableCell(row, event.hour, index, 'hour', 'number');
+                addEditableCell(row, event.minute, index, 'minute', 'number');
+                addEditableCell(row, event.duration, index, 'duration', 'number');
+                addEditableCell(row, event.subject, index, 'subject', 'text');
+                addEditableCell(row, event.type || '', index, 'type', 'text');
+                addEditableCell(row, event.location || '', index, 'location', 'text');
+                addEditableCell(row, (event.dates || []).join(', '), index, 'dates', 'text');
+
+                // Delete button
+                const actionCell = row.insertCell();
+                const deleteBtn = document.createElement('button');
+                deleteBtn.className = 'delete-btn';
+                deleteBtn.textContent = '×';
+                deleteBtn.onclick = () => deleteRow(index);
+                actionCell.appendChild(deleteBtn);
+            });
+
+            tableContainer.innerHTML = '';
+            tableContainer.appendChild(table);
+        }
+
+        function addEditableCell(row, value, index, field, type) {
+            const cell = row.insertCell();
+            cell.contentEditable = true;
+            cell.textContent = value ?? '';
+            cell.dataset.field = field;
+
+            cell.addEventListener('blur', function() {
+                updateData(index, field, this.textContent, type);
+            });
+
+            cell.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    this.blur();
+                }
+            });
+        }
+
+        function updateData(index, field, value, type) {
+            let parsedValue = value.trim();
+
+            if (type === 'number') {
+                parsedValue = parseInt(parsedValue, 10);
+                if (isNaN(parsedValue)) parsedValue = 0;
+            }
+
+            if (field === 'dates') {
+                parsedValue = parsedValue ? parsedValue.split(',').map(d => d.trim()).filter(d => d) : [];
+            }
+
+            if (field === 'day_name' || field === 'type' || field === 'location') {
+                parsedValue = parsedValue || null;
+            }
+
+            scheduleData[index][field] = parsedValue;
+            updateStats();
+        }
+
+        function addNewRow() {
+            const newEvent = {
+                group: 1,
+                day: 0,
+                day_name: "Poniedziałek",
+                hour: 8,
+                minute: 0,
+                duration: 90,
+                subject: "Nowy przedmiot",
+                type: null,
+                location: null,
+                dates: [],
+                time: null
+            };
+            scheduleData.push(newEvent);
+            renderTable();
+            updateStats();
+            generateBtn.disabled = false;
+        }
+
+        function deleteRow(index) {
+            if (confirm('Czy na pewno chcesz usunąć te zajęcia?')) {
+                scheduleData.splice(index, 1);
+                renderTable();
+                updateStats();
+            }
+        }
+
+        function clearAll() {
+            if (confirm('Czy na pewno chcesz usunąć wszystkie dane?')) {
+                scheduleData = [];
+                renderTable();
+                updateStats();
+                generateBtn.disabled = true;
+                validationOutput.innerHTML = '';
+                outputSection.classList.remove('visible');
+            }
+        }
+
+        function updateStats() {
+            const count = scheduleData.length;
+            const groups = new Set(scheduleData.map(e => e.group)).size;
+            stats.textContent = `📊 Zajęcia: ${count} | Grupy: ${groups}`;
+        }
+
+        function generateJSON() {
+            // Validate
+            const valid = validate(scheduleData);
+
+            if (!valid) {
+                const errors = validate.errors.map(err => {
+                    const path = err.instancePath || 'root';
+                    return `${path}: ${err.message}`;
+                });
+                showValidationResult(false, 'Znaleziono błędy walidacji:', errors);
+                outputSection.classList.remove('visible');
+                return;
+            }
+
+            // Generate JSON
+            const jsonString = JSON.stringify(scheduleData, null, 2);
+            outputJson.value = jsonString;
+            outputSection.classList.add('visible');
+
+            // Copy to clipboard
+            navigator.clipboard.writeText(jsonString).then(() => {
+                showValidationResult(true, '✅ JSON wygenerowany i skopiowany do schowka! Możesz teraz wkleić go w GitHubie.');
+            }).catch(err => {
+                showValidationResult(true, '✅ JSON wygenerowany! Skopiuj go ręcznie poniżej.');
+            });
+        }
+
+        function showValidationResult(success, message, errors = []) {
+            validationOutput.innerHTML = '';
+            const div = document.createElement('div');
+            div.className = `validation-results ${success ? 'success' : 'error'}`;
+
+            const heading = document.createElement('h3');
+            heading.textContent = success ? '✅ Sukces' : '❌ Błędy walidacji';
+            div.appendChild(heading);
+
+            const p = document.createElement('p');
+            p.textContent = message;
+            div.appendChild(p);
+
+            if (errors.length > 0) {
+                const ul = document.createElement('ul');
+                errors.forEach(err => {
+                    const li = document.createElement('li');
+                    li.textContent = err;
+                    ul.appendChild(li);
+                });
+                div.appendChild(ul);
+            }
+
+            validationOutput.appendChild(div);
+        }
+    </script>
+</body>
+</html>

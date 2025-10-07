@@ -1,0 +1,260 @@
+{
+  "quiz_id": "anatomia-osteologia",
+  "title": "Quiz",
+  "subject": "Anatomia",
+  "topic": "Osteologia",
+  "questions": [
+    {
+      "question": "Ile kości ma dorosły człowiek?",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        {
+          "text": "206",
+          "correct": true
+        },
+        {
+          "text": "208",
+          "correct": false
+        },
+        {
+          "text": "204",
+          "correct": false
+        },
+        {
+          "text": "210",
+          "correct": false
+        }
+      ],
+      "explanation": "Dorosły człowiek ma 206 kości. Noworodek ma ich około 270, ale wiele się zrasta w trakcie rozwoju."
+    },
+    {
+      "question": "Która kość jest najdłuższą kością w ludzkim ciele?",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        {
+          "text": "Kość ramieniowa (humerus)",
+          "correct": false
+        },
+        {
+          "text": "Kość udowa (femur)",
+          "correct": true
+        },
+        {
+          "text": "Kość piszczelowa (tibia)",
+          "correct": false
+        },
+        {
+          "text": "Kość promieniowa (radius)",
+          "correct": false
+        }
+      ],
+      "explanation": "Kość udowa (femur) to najdłuższa i najsilniejsza kość w ciele człowieka, stanowi około 26% wzrostu człowieka."
+    },
+    {
+      "question": "Zaznacz wszystkie kości długie:",
+      "type": "multiple_choice",
+      "points": 3,
+      "options": [
+        {
+          "text": "Kość udowa (femur)",
+          "correct": true
+        },
+        {
+          "text": "Kość ramieniowa (humerus)",
+          "correct": true
+        },
+        {
+          "text": "Łopatka (scapula)",
+          "correct": false
+        },
+        {
+          "text": "Kość piszczelowa (tibia)",
+          "correct": true
+        },
+        {
+          "text": "Kość potyliczna",
+          "correct": false
+        }
+      ],
+      "explanation": "Kości długie to: kość udowa, ramieniowa, piszczelowa, strzałkowa, łokciowa i promieniowa. Łopatka to kość płaska, a kość potyliczna to kość czaszki."
+    },
+    {
+      "question": "Która część kości długiej odpowiada za wzrost kości na długość u dzieci?",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        {
+          "text": "Nasada (epifiza)",
+          "correct": false
+        },
+        {
+          "text": "Chrząstka nasadowa (płytka wzrostowa)",
+          "correct": true
+        },
+        {
+          "text": "Trzon (diafiza)",
+          "correct": false
+        },
+        {
+          "text": "Okostna (periosteum)",
+          "correct": false
+        }
+      ],
+      "explanation": "Chrząstka nasadowa (płytka wzrostowa) znajduje się pomiędzy nasadą a trzonem kości i odpowiada za wzrost kości na długość do momentu zakończenia wzrostu."
+    },
+    {
+      "question": "Co stanowi około 65-70% masy kości?",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        {
+          "text": "Włókna kolagenowe",
+          "correct": false
+        },
+        {
+          "text": "Substancje mineralne (głównie fosforany wapnia)",
+          "correct": true
+        },
+        {
+          "text": "Komórki kostne (osteocyty)",
+          "correct": false
+        },
+        {
+          "text": "Woda",
+          "correct": false
+        }
+      ],
+      "explanation": "Substancje mineralne, głównie fosforany wapnia w postaci hydroksyapatytu, stanowią około 65-70% masy kości i zapewniają jej twardość."
+    },
+    {
+      "question": "Zaznacz wszystkie funkcje układu kostnego:",
+      "type": "multiple_choice",
+      "points": 4,
+      "options": [
+        {
+          "text": "Podpora i kształt ciała",
+          "correct": true
+        },
+        {
+          "text": "Ochrona narządów wewnętrznych",
+          "correct": true
+        },
+        {
+          "text": "Wytwarzanie krwinek",
+          "correct": true
+        },
+        {
+          "text": "Magazynowanie tłuszczu",
+          "correct": true
+        },
+        {
+          "text": "Produkcja hormonów płciowych",
+          "correct": false
+        }
+      ],
+      "explanation": "Układ kostny pełni wiele funkcji: podporę, ochronę, wytwarzanie krwinek w szpiku czerwonym, magazynowanie minerałów i tłuszczu w szpiku żółtym. Hormony płciowe są produkowane głównie w gonadach."
+    },
+    {
+      "question": "Ile kości czaszki ma dorosły człowiek?",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        {
+          "text": "22",
+          "correct": true
+        },
+        {
+          "text": "26",
+          "correct": false
+        },
+        {
+          "text": "18",
+          "correct": false
+        },
+        {
+          "text": "20",
+          "correct": false
+        }
+      ],
+      "explanation": "Czaszka dorosłego człowieka składa się z 22 kości: 8 kości mózgoczaszki i 14 kości twarzoczaszki."
+    },
+    {
+      "question": "Która z poniższych kości NIE należy do kości nadgarstka?",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        {
+          "text": "Kość łódkowata (os scaphoideum)",
+          "correct": false
+        },
+        {
+          "text": "Kość półksiężycowata (os lunatum)",
+          "correct": false
+        },
+        {
+          "text": "Kość śródręcza (os metacarpale)",
+          "correct": true
+        },
+        {
+          "text": "Kość główkowata (os capitatum)",
+          "correct": false
+        }
+      ],
+      "explanation": "Kości śródręcza (ossa metacarpalia) tworzą śródręcze, a nie nadgarstek. Nadgarstek składa się z 8 kości ułożonych w dwóch rzędach."
+    },
+    {
+      "question": "Ile kręgów ma kręgosłup człowieka (bez liczenia kości krzyżowej i guzicznej)?",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        {
+          "text": "24",
+          "correct": true
+        },
+        {
+          "text": "26",
+          "correct": false
+        },
+        {
+          "text": "33",
+          "correct": false
+        },
+        {
+          "text": "30",
+          "correct": false
+        }
+      ],
+      "explanation": "Kręgosłup ma 24 wolne kręgi: 7 szyjnych, 12 piersiowych, 5 lędźwiowych. Dodatkowo 5 zrośniętych kręgów krzyżowych i 4-5 zrośniętych kręgów guzicznych."
+    },
+    {
+      "question": "Zaznacz wszystkie elementy żebra:",
+      "type": "multiple_choice",
+      "points": 4,
+      "options": [
+        {
+          "text": "Główka żebra",
+          "correct": true
+        },
+        {
+          "text": "Szyja żebra",
+          "correct": true
+        },
+        {
+          "text": "Trzon żebra",
+          "correct": true
+        },
+        {
+          "text": "Guzek żebra",
+          "correct": true
+        },
+        {
+          "text": "Nasada żebra",
+          "correct": false
+        }
+      ],
+      "explanation": "Żebro składa się z: główki (caput), szyi (collum), guzka (tuberculum) i trzonu (corpus). Nie ma nasady - to element kości długich."
+    }
+  ]
+}

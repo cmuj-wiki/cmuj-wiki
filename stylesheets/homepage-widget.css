@@ -1,0 +1,414 @@
+/**
+ * Homepage "Co Dalej?" Widget Styles
+ */
+
+/* Widget Container */
+#co-dalej-widget {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--md-default-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Group Selector */
+.widget-group-selector {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.widget-group-selector h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: var(--md-primary-fg-color);
+}
+
+.widget-group-selector p {
+    margin-bottom: 1rem;
+}
+
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 0.5rem;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+.group-btn {
+    padding: 0.6rem 0.5rem;
+    border: 2px solid var(--md-primary-fg-color);
+    background: transparent;
+    color: var(--md-primary-fg-color);
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.group-btn:hover {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.widget-note {
+    font-size: 0.875rem;
+    color: var(--md-default-fg-color--light);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Year Selection */
+.widget-year-selector {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.widget-year-selector h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: var(--md-default-fg-color);
+}
+
+.widget-year-selector p {
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 1rem;
+}
+
+.year-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.year-btn {
+    padding: 1rem 0.5rem;
+    background: var(--md-code-bg-color);
+    border: 2px solid var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.year-btn:not(.disabled):hover {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.year-btn.disabled {
+    border-color: var(--md-default-fg-color--lightest);
+    color: var(--md-default-fg-color--light);
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.year-btn.disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.coming-soon {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--md-default-fg-color--lighter);
+}
+
+/* Widget Header */
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--md-default-fg-color--lightest);
+}
+
+.widget-header h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.widget-group-badge {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.75rem;
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.widget-change-group {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--md-default-fg-color--light);
+    background: transparent;
+    color: var(--md-default-fg-color);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.widget-change-group:hover {
+    background: var(--md-default-fg-color--lightest);
+}
+
+/* Widget Content */
+.widget-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.widget-section {
+    padding: 1rem;
+    background: var(--md-code-bg-color);
+    border-radius: 6px;
+}
+
+.widget-section h4 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: var(--md-default-fg-color);
+}
+
+.widget-empty {
+    color: var(--md-default-fg-color--light);
+    font-style: italic;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.widget-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--md-primary-fg-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.widget-link:hover {
+    text-decoration: underline;
+}
+
+/* Event Cards */
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.event-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: var(--md-default-bg-color);
+    border-radius: 6px;
+    border-left: 4px solid var(--md-default-fg-color--lighter);
+    transition: all 0.2s ease;
+}
+
+.event-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateX(4px);
+}
+
+.event-card.urgent {
+    border-left-color: #ef5350; /* Red for urgent */
+    background: rgba(239, 83, 80, 0.05);
+}
+
+.event-card.soon {
+    border-left-color: #ff9800; /* Orange for soon */
+    background: rgba(255, 152, 0, 0.05);
+}
+
+.event-date {
+    flex-shrink: 0;
+    text-align: center;
+    min-width: 80px;
+}
+
+.event-countdown {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--md-primary-fg-color);
+    margin-bottom: 0.25rem;
+}
+
+.event-card.urgent .event-countdown {
+    color: #ef5350;
+}
+
+.event-card.soon .event-countdown {
+    color: #ff9800;
+}
+
+.event-date-full {
+    font-size: 0.75rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.event-details {
+    flex-grow: 1;
+}
+
+.event-subject {
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+    margin-bottom: 0.25rem;
+}
+
+.event-type {
+    font-size: 0.875rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 0.25rem;
+}
+
+.event-topic {
+    font-size: 0.875rem;
+    color: var(--md-default-fg-color);
+    font-style: italic;
+}
+
+.event-link {
+    flex-shrink: 0;
+    align-self: center;
+    padding: 0.5rem 1rem;
+    background: var(--md-primary-fg-color);
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.event-link:hover {
+    background: var(--md-accent-fg-color);
+    transform: translateX(2px);
+}
+
+/* Class List */
+.class-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.class-item {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.6rem;
+    background: var(--md-default-bg-color);
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.class-day {
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+    min-width: 90px;
+}
+
+.class-time {
+    color: var(--md-default-fg-color--light);
+    font-family: monospace;
+    min-width: 80px;
+}
+
+.class-subject {
+    color: var(--md-default-fg-color);
+}
+
+.class-type-badge {
+    padding: 0.25rem 0.5rem;
+    background: var(--md-code-bg-color);
+    border-radius: 3px;
+    font-size: 0.75rem;
+    color: var(--md-default-fg-color--light);
+    white-space: nowrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #co-dalej-widget {
+        padding: 1rem;
+    }
+
+    .widget-content {
+        grid-template-columns: 1fr;
+    }
+
+    .group-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 0.5rem;
+    }
+
+    .event-card {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .event-date {
+        border-bottom: 1px solid var(--md-default-fg-color--lightest);
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .event-link {
+        align-self: stretch;
+        text-align: center;
+    }
+
+    .class-item {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .class-type-badge {
+        justify-self: start;
+    }
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .event-card {
+    background: var(--md-code-bg-color);
+}
+
+[data-md-color-scheme="slate"] .class-item {
+    background: var(--md-code-bg-color);
+}
+
+/* Fix dark mode text colors - ensure subject names are visible */
+[data-md-color-scheme="slate"] .event-subject {
+    color: var(--md-default-fg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .event-topic {
+    color: var(--md-default-fg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .class-subject {
+    color: var(--md-default-fg-color) !important;
+}
