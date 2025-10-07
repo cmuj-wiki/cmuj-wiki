@@ -201,9 +201,12 @@ def main():
     else:
         # Find all quiz files
         files_to_check = list(quiz_dir.glob('*.md'))
-        # Exclude template and README
+        # Exclude template, README, and documentation files
         files_to_check = [f for f in files_to_check
-                         if not f.name.startswith('_') and f.name != 'README.md']
+                         if not f.name.startswith('_')
+                         and f.name.upper() not in ['README.MD', 'README']
+                         and 'JAK_DODAC' not in f.name.upper()
+                         and 'INSTRUKCJA' not in f.name.upper()]
 
         # Also check image quiz directories
         image_quizzes = [d for d in quiz_dir.iterdir()

@@ -59,14 +59,14 @@
         "type": "array",
         "items": {
           "type": "string",
-          "pattern": "^(do\\s+\\d{1,2}\\.[IVX]+|\\d{1,2}\\.[IVX]+\\s*-\\s*\\d{1,2}\\.[IVX]+|\\d{1,2}\\.[IVX]+)$",
-          "description": "Date restriction in format: 'do 7.XI' or '28.XI - 16.I' or '15.X'"
+          "pattern": "^(do\\s+\\d{1,2}\\.[IVX]+(\\.[12]\\d{3})?|\\d{1,2}\\.[IVX]+(\\.[12]\\d{3})?\\s*-\\s*\\d{1,2}\\.[IVX]+(\\.[12]\\d{3})?|\\d{1,2}\\.[IVX]+(\\.[12]\\d{3})?)$",
+          "description": "Date restriction in format: 'do 7.XI' or '28.XI - 16.I' or '15.X' (optionally with year like '9.XII.2025')"
         },
         "description": "Array of date restrictions (empty = no restrictions)"
       },
       "time": {
-        "type": "null",
-        "description": "Legacy field, always null"
+        "type": ["string", "null"],
+        "description": "Legacy field for time range (e.g., '8.00-9.30'), prefer using hour/minute/duration instead"
       }
     },
     "required": ["group", "day", "hour", "minute", "duration", "subject"],
