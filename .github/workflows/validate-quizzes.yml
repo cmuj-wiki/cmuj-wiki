@@ -1,0 +1,45 @@
+name: Validate Quizzes
+
+on:
+  push:
+    paths:
+      - 'docs/testy/quizzes/**'
+      - 'plugins/quiz_builder/**'
+      - 'scripts/validate_quizzes.py'
+      - '.github/workflows/validate-quizzes.yml'
+  pull_request:
+    paths:
+      - 'docs/testy/quizzes/**'
+      - 'plugins/quiz_builder/**'
+      - 'scripts/validate_quizzes.py'
+      - '.github/workflows/validate-quizzes.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate Quiz Format
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run quiz validation
+        run: |
+          python3 scripts/validate_quizzes.py
+
+      - name: Install dependencies and build
+        if: success()
+        run: |
+          pip install mkdocs-material
+          pip install -e .
+          mkdocs build --strict
+
+      - name: Validation successful
+        if: success()
+        run: |
+          echo "✅ All quizzes are valid and build succeeded!"
